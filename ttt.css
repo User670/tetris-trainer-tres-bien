@@ -1,0 +1,54 @@
+/* 基本設定 */
+body, input, select{
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei UI Light";
+	font-size: 16px;
+}
+
+#list_sections input{
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei UI Light";
+	font-size: 12px;
+	height: 24px;
+}
+
+textarea{
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei UI Light";
+	font-size: 16px;
+}
+
+/* レイヤー */
+.layer{
+  visibility: hidden;
+  position: absolute;
+  left: 50%; top: 16px;
+  width: 720px; height: 640px;
+  border: 1px #cccccc solid;
+  padding: 8px 24px;
+   transform: translate(-50%, 0) }   /* 4 */
+}
+/* 中央揃え */
+.center{
+  text-align: center;
+}
+/* 小さい文字 */
+.small{
+  font-size: 12px;
+}
+
+#title{
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "メイリオ", "ＭＳ ゴシック", monospace;
+}
+#list_sections{
+  background-color: #eef4ff;
+  height: 1920px;
+}
+#list_problems{
+  background-color: #eef4ff;
+}
+#perform{
+  background-color: #eef4ff;
+}
+#preferences{
+  background-color: #eef4ff;
+}
