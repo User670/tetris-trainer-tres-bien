@@ -520,7 +520,7 @@ function Problem300(id){
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [J, S, L, Z, I, O, O, T, S, T];
     this.caption = 'MKO Stacking';
-    this.hint = 'If an O comes early in the second bag, you can get a Perfect Clear; otherwise you can make T-Spin setups of a lot of variety, including STMB from the last puzzle.';
+    this.hint = 'If an O comes early in the second bag, you can get a Perfect Clear with this setup known as MKO; otherwise you can make T-Spin setups of a lot of variety, including STMB from the last puzzle.';
     this.isStrictGuide = true;
     this.guides = [G(0, 0, 18), G(3, 0, 16), G(0, 4, 18), G(1, 4, 16), G(3, 6, 16),
                    G(0, 7, 18), G(0, 7, 16), G(2, 2, 17), G(0, 3, 18), G(2, 1, 17)];
@@ -931,7 +931,7 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,1,1,0]];
     this.ingredients = [L, Z, S, T, I];
     this.caption = 'Donation, part 2';
-    this.hint = 'Plug the well first - in order to un plug it ASAP, picture how you should approch it as you place pieces.';
+    this.hint = 'Plug the well first - in order to un plug it ASAP, picture how you should approach it as you place pieces.';
     this.isStrictGuide = true;
     this.guides = [G(0, 7, 9), G(0, 6, 8), G(0, 0, 8), G(2, 2, 8), G(1, 7, 16)];
     this.req = [0,0,0,1,0,0,0,0,1,0,0,0,0];
@@ -1481,7 +1481,7 @@ function Problem300(id){
                           [1,1,1,0,1,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [S, I, L, T];
-    this.caption = 'Forecasting for T-Spin, part 1';
+    this.caption = 'Forecasting for T-Spins, part 1';
     this.hint = 'Keep an eye on where you put the S - it\'s placed in a place that allows for a T-Spin once the lines in the middle are cleared out.';
     this.isStrictGuide = true;
     this.guides = [G(0, 0, 12), G(1, 7, 14), G(0, 7, 16), G(2, 2, 16)];
@@ -1510,7 +1510,7 @@ function Problem300(id){
                           [1,1,1,1,1,1,0,1,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [L, S, J, T];
-    this.caption = 'Forecasting for T-Spin, part 2';
+    this.caption = 'Forecasting for T-Spins, part 2';
     this.hint = 'The stack gives you the bottom layer for the T-Spin Double. You need to build your top layer.';
     this.isStrictGuide = true;
     this.guides = [G(0, 0, 13), G(0, 3, 13), G(1, 7, 14), G(2, 5, 15)];
@@ -1539,7 +1539,7 @@ function Problem300(id){
                           [1,1,1,0,1,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [O, I, S, T];
-    this.caption = 'Forecasting for T-Spin, part 3';
+    this.caption = 'Forecasting for T-Spins, part 3';
     this.hint = 'Placement of the O is vital. Keep an eye on not only this well, but the next one too.';
     this.isStrictGuide = true;
     this.guides = [G(0, 3, 11), G(3, 6, 14), G(3, 6, 15), G(2, 2, 16)];
@@ -1568,7 +1568,7 @@ function Problem300(id){
                           [1,1,1,1,1,0,0,0,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [O, O, T, T];
-    this.caption = 'Forecasting for T-Spin, part 4';
+    this.caption = 'Forecasting for T-Spins, part 4';
     this.hint = 'You can also forecast on a TSD into a TSD.';
     this.isStrictGuide = true;
     this.guides = [G(0, 2, 14), G(0, 6, 14), G(2, 4, 15), G(2, 5, 17)];
@@ -1597,7 +1597,7 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,1,0,1],
                           [1,1,1,1,1,1,1,1,0,1]];
     this.ingredients = [S, O, L, I, T];
-    this.caption = 'Count the layers';
+    this.caption = 'Counting rows';
     this.hint = 'A 5-tall Tetris well leaves one layer for T-Spin after clearing a Tetris.';
     this.isStrictGuide = true;
     this.guides = [G(0, 0, 9), G(0, 4, 9), G(0, 7, 9), G(3, 2, 12), G(2, 2, 13)];
@@ -1626,7 +1626,7 @@ function Problem300(id){
                           [1,1,0,1,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [J, T, I, T];
-    this.caption = 'Forcast with a vertical J/L, part 1';
+    this.caption = 'Forecasting with a vertical J/L, part 1';
     this.hint = 'Place the J/L vertically like a hook for an T-Spin overhang.';
     this.isStrictGuide = true;
     this.guides = [G(1, -1, 14), G(3, 8, 14), G(0, 4, 15), G(2, 1, 15)];
@@ -1655,7 +1655,7 @@ function Problem300(id){
                           [1,1,0,1,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [I, O, J, T];
-    this.caption = 'Forcast with a vertical J/L, part 2';
+    this.caption = 'Forecasting with a vertical J/L, part 2';
     this.hint = 'On the left there, you would normally want to use a Z for the overhang, but a J can work too.';
     this.isStrictGuide = true;
     this.guides = [G(0, 1, 15), G(0, 3, 14), G(1, -1, 14), G(2, 1, 15)];
@@ -1771,7 +1771,7 @@ function Problem300(id){
                           [1,1,1,0,1,1,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [O, I, T];
-    this.caption = 'Practice: Forcasting for T-Spin, part 1';
+    this.caption = 'Practice: Forecasting for T-Spins, part 1';
     this.hint = 'Clear a T-Spin Double.\nConsider how the stack would look like after the Tetris.';
     this.isStrictGuide = false;
     this.guides = [];
@@ -1800,7 +1800,7 @@ function Problem300(id){
                           [1,0,1,1,1,1,1,1,1,1],
                           [1,0,1,1,1,1,1,1,1,1]];
     this.ingredients = [Z, L, T];
-    this.caption = 'Practice: Forcasting for T-Spin, part 2';
+    this.caption = 'Practice: Forecasting for T-Spins, part 2';
     this.hint = 'Clear a T-Spin Double.';
     this.isStrictGuide = false;
     this.guides = [];
@@ -1829,7 +1829,7 @@ function Problem300(id){
                           [1,1,1,0,1,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [L, J, T];
-    this.caption = 'Practice: Forcasting for T-Spin, part 3';
+    this.caption = 'Practice: Forecasting for T-Spins, part 3';
     this.hint = 'Clear a T-Spin Double.';
     this.isStrictGuide = false;
     this.guides = [];
@@ -1858,7 +1858,7 @@ function Problem300(id){
                           [1,1,1,1,1,0,0,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [L, Z, T];
-    this.caption = 'Practice: Forcasting for T-Spin, part 4';
+    this.caption = 'Practice: Forecasting for T-Spins, part 4';
     this.hint = 'Clear a T-Spin Double.';
     this.isStrictGuide = false;
     this.guides = [];
@@ -1887,7 +1887,7 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,1,0,1],
                           [1,1,1,1,1,1,1,1,0,1]];
     this.ingredients = [O, J, T];
-    this.caption = 'Practice: Forcasting for T-Spin, part 5';
+    this.caption = 'Practice: Forecasting for T-Spins, part 5';
     this.hint = 'Clear a T-Spin Double.\nThis technique where you spin a J to make a T slot is called "Shallow Grave".';
     this.isStrictGuide = false;
     this.guides = [];
@@ -1916,7 +1916,7 @@ function Problem300(id){
                           [1,1,1,0,1,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [S, T, I, T];
-    this.caption = 'Practice: Forcasting for T-Spin, part 6';
+    this.caption = 'Practice: Forecasting for T-Spins, part 6';
     this.hint = 'Clear a T-Spin Double twice.';
     this.isStrictGuide = false;
     this.guides = [];
@@ -1945,7 +1945,7 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,1,0,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [Z, T, Z, T];
-    this.caption = 'Practice: Forcasting for T-Spin, part 7';
+    this.caption = 'Practice: Forecasting for T-Spins, part 7';
     this.hint = 'Clear a T-Spin Double twice.';
     this.isStrictGuide = false;
     this.guides = [];
@@ -1974,7 +1974,7 @@ function Problem300(id){
                           [0,0,0,1,1,1,1,1,1,1],
                           [1,0,1,1,1,1,1,1,1,1]];
     this.ingredients = [I, J, O, T, T];
-    this.caption = 'Practice: Forcasting for T-Spin, part 8';
+    this.caption = 'Practice: Forecasting for T-Spins, part 8';
     this.hint = 'Clear a T-Spin Double twice.\nThe first T-Spin Double is on lines 3 and 4 from the bottom.';
     this.isStrictGuide = false;
     this.guides = [];
@@ -2003,7 +2003,7 @@ function Problem300(id){
                           [1,1,1,1,0,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [S, Z, J, T, T];
-    this.caption = 'Practice: Forcasting for T-Spin, part 9';
+    this.caption = 'Practice: Forecasting for T-Spins, part 9';
     this.hint = 'Clear a T-Spin Double twice.\nTips: It\'s Cut Copy.';
     this.isStrictGuide = false;
     this.guides = [];
@@ -2032,7 +2032,7 @@ function Problem300(id){
                           [1,1,1,1,0,1,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [L, Z, S, T];
-    this.caption = 'Practice: Forcasting for T-Spin Triple';
+    this.caption = 'Practice: Forecasting for T-Spin Triples';
     this.hint = 'Clear a T-Spin Triple.';
     this.isStrictGuide = false;
     this.guides = [];
@@ -2062,7 +2062,7 @@ function Problem300(id){
                           [1,1,1,1,1,1,1,0,1,1]];
     this.ingredients = [O, L, T];
     this.caption = 'Final quiz, part 1';
-    this.hint = 'Clear a T-Spin Double.\nFrom here on you\'ll have to use all you have learned to tackle these puzzles.';
+    this.hint = 'Clear a T-Spin Double.\nFrom here on you\'ll have to use everything that you\'ve learned to tackle these puzzles.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -2921,7 +2921,7 @@ function Problem300(id){
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [T, T, T, T, T, T, T, T, T, T];
     this.caption = 'Tetromino Highlight: T';
-    this.hint = 'Try to get a Perfect Clear with 10 T pieces.';
+    this.hint = 'Try to get a Perfect Clear with 10 T pieces.\nSide objective: Do a T-Spin Double right before the Perfect Clear.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,0,0,1,0,0];
