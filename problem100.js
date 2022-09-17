@@ -332,7 +332,7 @@ function Problem100(id){
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [T, T, T];
     this.caption = 'Rotation of T pieces, part 1';
-    this.hint = 'Rotate right and it fits right in.\nThough you can rotate left 3 times, but better go with the more efficient route.';
+    this.hint = 'Rotate right and it fits right in.\nAlthough you can rotate left 3 times, you should go with the more efficient route.';
     this.isStrictGuide = false;
     this.guides =[];
     this.req = [0,3,0,0,0,0,0,0,0,0,0,0,0];
@@ -535,7 +535,7 @@ function Problem100(id){
                           [1,0,0,0,1,1,1,1,1,1]];
     this.ingredients = [T, T];
     this.caption = 'Sliding in the T piece, part 3';
-    this.hint = 'By the way, sliding in a T piece like this counts as a Mini T-Spin.';
+    this.hint = 'By the way, spinning in a T piece like this counts as a Mini T-Spin.';
     this.isStrictGuide = false;
     this.guides =[];
     this.req = [0,0,0,0,0,0,2,0,0,0,0,0,0];
@@ -593,7 +593,7 @@ function Problem100(id){
                           [1,1,1,1,1,1,0,0,0,1]];
     this.ingredients = [O, T];
     this.caption = 'Sliding in the T piece, part 5';
-    this.hint = 'You need a 2-tall wall for the T piece to slide in.';
+    this.hint = 'You need a wall that\'s at least 2 blocks tall for the T piece to spin in the slot.';
     this.isStrictGuide = false;
     this.guides =[];
     this.req = [0,0,0,0,0,0,1,0,0,0,0,0,0];
@@ -1000,7 +1000,7 @@ function Problem100(id){
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [T, T];
     this.caption = 'TSD overhang with a T';
-    this.hint = 'As an alternative to S or Z, T can also be used to make the overhang.\n(Teatube: considering there are only one T in a bag, probably better try to use your Ts in T-Spins.)';
+    this.hint = 'As an alternative to S or Z, T can also be used to make the overhang.\n(Teatube: considering there are only one T in a bag, it\'s better to try to use your Ts for T-Spins instead of making overhangs with them.)';
     this.isStrictGuide = true;
     this.guides = [G(2, 5, 13), G(2, 3, 14)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1615,7 +1615,7 @@ function Problem100(id){
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [J, O, S, T];
     this.caption = 'Balancing the stack, part 5';
-    this.hint = 'Also remember to build the T slot as you terraform the field.';
+    this.hint = 'Also remember to build the overhang as you balance the stack.';
     this.isStrictGuide = true;
     this.guides = [G(0, 7, 14), G(0, 7, 13),
                    G(0, 3, 12), G(2, 5, 12)];
@@ -1703,7 +1703,7 @@ function Problem100(id){
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [J, T];
     this.caption = 'J/L hook, part 1';
-    this.hint = 'Hook a J/L here for a TSD setup.';
+    this.hint = 'Hook a J here for a TSD setup.';
     this.isStrictGuide = true;
     this.guides = [G(1, -1, 9), G(2, 1, 9)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1732,7 +1732,7 @@ function Problem100(id){
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [I, L, T];
     this.caption = 'J/L hook, part 2';
-    this.hint = 'Actually that\'s not "balancing", but still it\'s a valid strategy to keep in mind.';
+    this.hint = 'This actually isn\'t "balancing", but it\'s still a valid strategy to keep in mind.';
     this.isStrictGuide = true;
     this.guides = [G(3, 1, 10), G(3, 5, 11), G(2, 3, 11)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -2023,7 +2023,7 @@ function Problem100(id){
                           [1,1,1,1,1,0,1,1,1,1]];
     this.ingredients = [J, Z, O, T];
     this.caption = 'Balancing practice, part 9';
-    this.hint = 'Clear a T-Spin Double.';
+    this.hint = 'Clear a T-Spin Double. (Bonus: Try not to cover the garbage hole.)';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
