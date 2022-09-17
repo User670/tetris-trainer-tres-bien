@@ -1,17 +1,17 @@
 /* äÓñ{ê›íË */
 body, input, select{
-	font-family: "Microsoft YaHei UI", "Microsoft YaHei UI Light";
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei UI Light", sans-serif;
 	font-size: 16px;
 }
 
 #list_sections input{
-	font-family: "Microsoft YaHei UI", "Microsoft YaHei UI Light";
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei UI Light", sans-serif;
 	font-size: 12px;
 	height: 24px;
 }
 
 textarea{
-	font-family: "Microsoft YaHei UI", "Microsoft YaHei UI Light";
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei UI Light", sans-serif;
 	font-size: 16px;
 }
 
@@ -20,7 +20,7 @@ textarea{
   visibility: hidden;
   position: absolute;
   left: 50%; top: 16px;
-  width: 720px; height: 640px;
+  width: 720px; /*height: 640px;*/
   border: 1px #cccccc solid;
   padding: 8px 24px;
    transform: translate(-50%, 0) }   /* 4 */
@@ -41,7 +41,7 @@ textarea{
 }
 #list_sections{
   background-color: #eef4ff;
-  height: 1920px;
+  /*height: 1920px;*/
 }
 #list_problems{
   background-color: #eef4ff;
