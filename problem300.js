@@ -785,7 +785,7 @@ function Problem300(id){
                           [1,1,1,1,1,1,0,1,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [O, L, T];
-    this.caption = 'Practice: Balancing by downstacking, part ';
+    this.caption = 'Practice: Balancing by downstacking, part 2';
     this.hint = 'Clear a T-Spin Double.\nFill/clear a 2x2 space with the O.';
     this.isStrictGuide = false;
     this.guides = [];
