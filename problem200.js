@@ -26,7 +26,7 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [I, S, Z, O, J, T];
-    this.caption = 'TSD opener, part 1';
+    this.caption = 'TSD openers, part 1';
     this.hint = 'This is TKI - a very important TSD opener setup. It is used by players of various skill levels.';
     this.isStrictGuide = true;
     this.guides = [G(0, 3, 18), G(0, 4, 17), G(3, 2, 17), 
@@ -56,7 +56,7 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [I, Z, S, O, L, T];
-    this.caption = 'TSD opener, part 2';
+    this.caption = 'TSD openers, part 2';
     this.hint = 'Try this opener mirrored.\nBy the way, the first 7 pieces of a game are one each of the 7 pieces without duplicates.';
     this.isStrictGuide = true;
     this.guides = [G(0, 3, 18), G(0, 3, 17), G(1, 5, 17), 
@@ -86,7 +86,7 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [I, S, J, O, Z, T, L, Z, S, L, O, I, T];
-    this.caption = 'TSD opener, part 3';
+    this.caption = 'TSD openers, part 3';
     this.hint = '... Same goes with the 7 pieces after the first 7, and the 7 after that, and so on. This is what we call the 7-bag randomizer.';
     this.isStrictGuide = true;
     this.guides = [G(0, 3, 18), G(0, 4, 17), G(3, 8, 17),
@@ -119,7 +119,7 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [I, S, Z, O, J, T];
-    this.caption = 'TSD opener, part 4';
+    this.caption = 'TSD openers, part 4';
     this.hint = 'Time to launch the TSD opener yourself.\nThings should be more smooth if you practice enough...';
     this.isStrictGuide = false;
     this.guides = [];
@@ -425,7 +425,7 @@ function Problem200(id){
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [T, I, J, I, L, I];
     this.caption = 'Terraforming the well, part 1';
-    this.hint = 'T, J and L can be used to adjust height of the floor of the 2-wide well. Here we do this to make it Tetris-ready.';
+    this.hint = 'T, J and L can be used to adjust the height of the floor of the 2-wide well. Here we do this to make it Tetris-ready.';
     this.isStrictGuide = true;
     this.guides = [G(3, 8, 5), G(1, 6, 6), G(3, 4, 10), 
                    G(3, 3, 11), G(3, 0, 15), G(3, -1, 16)];
