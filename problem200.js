@@ -26,8 +26,8 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [I, S, Z, O, J, T];
-    this.caption = '「开局 T2 」　其１';
-    this.hint = '通称「开局 T2 」。\n上级者也经常使用\n是最重要的开局定式。';
+    this.caption = 'TSD opener, part 1';
+    this.hint = 'This TSD opener is a very important opener setup, and used by players of various skill levels.';
     this.isStrictGuide = true;
     this.guides = [G(0, 3, 18), G(0, 4, 17), G(3, 2, 17), 
                    G(0, -1, 18), G(3, 8, 17), G(2, 6, 17)];
@@ -56,8 +56,8 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [I, Z, S, O, L, T];
-    this.caption = '「开局 T2 」　其２';
-    this.hint = '左右互换的情形。\n顺便一提最开始的７块\n是７种块不重复的出现各一次。';
+    this.caption = 'TSD opener, part 2';
+    this.hint = 'Try this opener mirrored.\nBy the way, the first 7 pieces of a game are one each of the 7 pieces without duplicates.';
     this.isStrictGuide = true;
     this.guides = [G(0, 3, 18), G(0, 3, 17), G(1, 5, 17), 
                    G(0, 7, 18), G(1, -1, 17), G(2, 1, 17)];
@@ -86,8 +86,8 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [I, S, J, O, Z, T, L, Z, S, L, O, I, T];
-    this.caption = '「开局 T2 」　其３';
-    this.hint = '接下来的7个，再接下来的7个\n也是7种块不重复的各出现一次。';
+    this.caption = 'TSD opener, part 3';
+    this.hint = '... Same goes with the 7 pieces after the first 7, and the 7 after that, and so on.';
     this.isStrictGuide = true;
     this.guides = [G(0, 3, 18), G(0, 4, 17), G(3, 8, 17),
                    G(0, -1, 18), G(3, 2, 17), G(2, 6, 17),
@@ -119,8 +119,8 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [I, S, Z, O, J, T];
-    this.caption = '「开局 T2 」　其４';
-    this.hint = '请自己发动「开局 T2 」！\n就算没有提示\n通过大量的练习\n让方块组合的更加顺滑吧。';
+    this.caption = 'TSD opener, part 4';
+    this.hint = 'Time to launch the TSD opener yourself.\nThings should be more smooth if you practice enough...';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -148,8 +148,8 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [I, Z, J, L, O, T];
-    this.caption = '「开局 T2 」其他方式　其１';
-    this.hint = '形状稍微有点不同。\n不过Ｉ块都落在正下方。\n';
+    this.caption = 'Variations of TSD openers, part 1';
+    this.hint = 'Slightly different shape, but the I piece is still on the bottom middle.';
     this.isStrictGuide = true;
     this.guides = [G(0, 3, 18), G(1, 4, 16), G(3, 8, 17), G(2, 2, 17), G(0, -1, 18),
                    G(2, 6, 17)];
@@ -178,8 +178,8 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [I, L, S, O, J, T];
-    this.caption = '「开局 T2 」其他方式　其２';
-    this.hint = '左右颠倒的情况。Ｉ块落在正下方时\n就可以这样非常简单的\n做非常多的 T2 。';
+    this.caption = 'Variations of TSD openers, part 2';
+    this.hint = 'The same setup mirrored.\nHaving the I piece in the middle makes it easier to get many TSDs.';
     this.isStrictGuide = true;
     this.guides = [G(0, 3, 18), G(1, -1, 17), G(3, 3, 16), G(0, 7, 18), G(2, 5, 17),
                    G(2, 1, 17)];
@@ -208,8 +208,8 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [J, L, Z, S, I, O, T, L, J, I, O, S, T, T];
-    this.caption = '「 DT 炮」';
-    this.hint = '正如名字所说是 TSD → TST 的定式。\n（T2 → T3）\n因为很复杂，不一定非要记住。\n';
+    this.caption = 'DT Cannon';
+    this.hint = 'As the name implies, it\'s a TSD -> TST cannon.\nIt\'s a bit complex, no need to memorize for now.';
     this.isStrictGuide = true;
     this.guides = [G(0, 7, 18), G(0, 3, 18), G(0, 7, 17),
                    G(0, 3, 17), G(1, 4, 16), G(0, -1, 18),
@@ -241,8 +241,8 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [Z, S, T, L, J, I, O, Z, L, S, T];
-    this.caption = '通称「 开局TD / TKI 堆积（日）/ C-Spin（英）」';
-    this.hint = '首先发动 T3 (TST)，之后再发动 T2 (TSD) 或 T3。\n「 TKI 」是开发此定式的人名。';
+    this.caption = 'C-Spin';
+    this.hint = 'A TST setup that can be followed up by either a TSD or a TST.\nIn Japan this is called TKI stacking, where TKI is the name of the person that came up with this.';
     this.isStrictGuide = true;
     this.guides = [G(0, 2, 18), G(1, 3, 17), G(2, 2, 15),
                    G(1, -1, 17), G(1, -1, 14), G(0, 6, 18),
@@ -273,8 +273,8 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [S, T, Z, I, L, J, O, T, I, O];
-    this.caption = '瞄准全清定式 基本型 ';
-    this.hint = '最开始的７手是瞄准全清\n（Perfect Clear(PC)）\n（パーフェクト·クリア（パフェ））\n的典型定式。\n更多详见:（把地址栏的ttt换成ttpc）';
+    this.caption = 'Perfect Clear opener';
+    this.hint = 'The first 7 pieces in this is a basic setup for a Perfect Clear opener.';
     this.isStrictGuide = true;
     this.guides = [G(0, 1, 18), G(1, -1, 17), G(0, 0, 16), G(0, 6, 18), G(1, 5, 16),
                    G(3, 8, 16), G(0, 6, 16), G(3, 4, 17), G(0, 2, 16), G(0, 2, 18)];
@@ -303,8 +303,8 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [J, L, O, S, Z, I, T, O, J, I, I, S, Z, O, L, J, T, I, J ,L];
-    this.caption = '瞄准全清定式「六巧板（Grace System）」';
-    this.hint = '因六块拼成 6 x 4 的长方形而得名。\n若能将 T 块放入hold，则全清的\n概率会较一般全清开局有所提升。';
+    this.caption = 'Grace System';
+    this.hint = 'A different Perfect Clear opener that builds a 4x6 rectangle.\nIf you can get a T piece in hold, it would be more likely to get a Perfect Clear out of it.';
     this.isStrictGuide = true;
     this.guides = [G(0, 0, 18), G(0, 3, 18), G(0, 1, 17), G(3, 0, 16), G(3, 4, 16),
                    G(0, 1, 15), G(3, 8, 17), G(0, 5, 18), G(2, 6, 17), G(0, 6, 18),
@@ -335,8 +335,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,1,0,0],
                           [1,1,1,1,1,1,1,1,1,0]];
     this.ingredients = [J, S, L, Z];
-    this.caption = '２列洞的地形削减　其１';
-    this.hint = '这样的洞除了Ｓ和Ｚ以外\n还有Ｊ和Ｌ能削。\n请往下削减吧。';
+    this.caption = '2-wide gap skimming, part 1';
+    this.hint = 'Other than S and Z, you can also use J and L to skim down a well like this.';
     this.isStrictGuide = true;
     this.guides = [G(1, -1, 13), G(3, 0, 13), 
                    G(3, 8, 17), G(1, 7, 17)];
@@ -365,8 +365,8 @@ function Problem200(id){
                           [0,0,1,1,1,1,1,1,1,1],
                           [0,0,1,1,1,1,1,1,1,1]];
     this.ingredients = [T, J, T, L, J, L];
-    this.caption = '２列洞的地形削减　其２';
-    this.hint = '将Ｔ用好的话\nＪ和Ｌ也会变得更容易削。';
+    this.caption = '2-wide gap skimming, part 2';
+    this.hint = 'Combine T with J/L to skim down this one. Keep an eye on which direction you drop your pieces.';
     this.isStrictGuide = true;
     this.guides = [G(3, 8, 9), G(1, 7, 9), G(1, 3, 13),
                    G(3, 4, 13), G(1, -1, 17), G(3, 0, 17)];
@@ -395,8 +395,8 @@ function Problem200(id){
                           [0,0,1,1,1,1,1,1,1,1],
                           [0,0,1,1,1,1,1,1,1,1]];
     this.ingredients = [Z, J, L];
-    this.caption = '２列洞的地形削减　其３';
-    this.hint = '乍一看　Ｚ消完后的形状很差\n但在这之后还是会消得整整齐齐。';
+    this.caption = '2-wide gap skimming, part 3';
+    this.hint = 'The Z would seemingly make a mess at a glance, but you can still clean it up.';
     this.isStrictGuide = true;
     this.guides = [G(3, 0, 17), G(1, -1, 16), G(3, 0, 17)];
     this.req = [0,0,1,0,0,0,0,0,0,0,0,0,0];
@@ -424,8 +424,8 @@ function Problem200(id){
                           [0,1,1,1,1,1,1,1,1,1],
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [T, I, J, I, L, I];
-    this.caption = '改变洞高度的削减　其１';
-    this.hint = 'Ｔ·Ｊ·Ｌ可以\n提高２块洞穴的高度。\n于是便可以 TETRiS（消四）。';
+    this.caption = 'Terraforming the well, part 1';
+    this.hint = 'T, J and L can be used to adjust height of the floor of the 2-wide well. Here we do this to make it Tetris-ready.';
     this.isStrictGuide = true;
     this.guides = [G(3, 8, 5), G(1, 6, 6), G(3, 4, 10), 
                    G(3, 3, 11), G(3, 0, 15), G(3, -1, 16)];
@@ -454,8 +454,8 @@ function Problem200(id){
                           [0,1,1,1,1,1,1,1,1,1],
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [S, I, Z, I, T, I];
-    this.caption = '改变洞高度的削减　其２';
-    this.hint = '缩小洞的同时\n将高度提高１。';
+    this.caption = 'Terraforming the well, part 2';
+    this.hint = 'Shrink the top of the opening while skimming down by one.';
     this.isStrictGuide = true;
     this.guides = [G(0, 7, 5), G(3, 6, 6), G(0, 3, 10), 
                    G(1, 3, 11), G(2, 0, 14), G(3, -1, 16)];
@@ -485,8 +485,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,1,1,0],
                           [1,1,1,1,1,1,1,1,1,0]];
     this.ingredients = [J, I, L, I];
-    this.caption = '改变洞高度的削减　其３';
-    this.hint = '将Ｊ和Ｌ以挂上去的方式削减。';
+    this.caption = 'Terraforming the well, part 3';
+    this.hint = 'Skim by hooking on the J/L.';
     this.isStrictGuide = true;
     this.guides = [G(2, 0, 9), G(3, -1, 11),
                    G(2, 7, 14), G(1, 7, 16)];
@@ -515,8 +515,8 @@ function Problem200(id){
                           [0,1,1,1,1,1,1,1,1,1],
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [T, J, I, T, L, I];
-    this.caption = '预判先堵后削　其１';
-    this.hint = '用Ｔ削减会堵洞\n但如果Ｊ和Ｌ马上就来的话\n也会减干净。';
+    this.caption = 'Blocking the well, part 1';
+    this.hint = 'While the T would indeed block the well, you can still get a clean well if a J or L comes right after.';
     this.isStrictGuide = true;
     this.guides = [G(3, 8, 6), G(1, 7, 6), G(1, 7, 8),
                    G(1, -1, 14), G(3, 0, 14), G(3, -1, 16)];
@@ -545,8 +545,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,1,1,0],
                           [1,1,1,1,1,1,1,1,1,0]];
     this.ingredients = [L, S, S, L, Z, J];
-    this.caption = '预判先堵后削　其２';
-    this.hint = '如果是立即就能削减的场合　先堵上洞的操作也可以考虑。';
+    this.caption = 'Blocking the well, part ';
+    this.hint = 'If you can clean it up right away, you might as well block it for a bit.';
     this.isStrictGuide = true;
     this.guides = [G(1, 6, 10), G(1, 7, 10), G(0, 7, 10),
                    G(2, 7, 8), G(1, 7, 8), G(1, 6, 8)];
@@ -575,8 +575,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,0,1,0],
                           [1,1,1,1,1,1,1,1,1,0]];
     this.ingredients = [O, I];
-    this.caption = '故意造空隙再削减';
-    this.hint = '可以看到间隔的 DOUBLE 和 TRIPLE \n有效率的削减吧。';
+    this.caption = 'Purposefully leaving a hole in the stack';
+    this.hint = 'Sometimes you can justify leaving a hole in the stack by clearing a split Double or Triple afterwards.';
     this.isStrictGuide = true;
     this.guides = [G(0, 6, 16), G(1, 7, 16)];
     this.req = [0,0,1,0,0,0,0,0,0,0,0,0,0];
@@ -604,8 +604,8 @@ function Problem200(id){
                           [1,1,1,1,0,0,1,1,1,1],
                           [1,1,1,1,1,0,1,1,1,1]];
     this.ingredients = [S, T, L, J, O, Z, I];
-    this.caption = '总结';
-    this.hint = '请充分利用之前的知识，完整消除整个版面。';
+    this.caption = 'To sum up...';
+    this.hint = 'Use what you\'ve learned so far to clear everything here.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,0,0,1,0,0];
@@ -633,8 +633,8 @@ function Problem200(id){
                           [0,1,1,1,1,1,1,1,1,1],
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [T, I];
-    this.caption = '不堵洞的进行挖掘　其１';
-    this.hint = '请一边挖掘一边做 TETRiS。\n如果弄错Ｔ的方向\n就无法挖掘了！';
+    this.caption = 'Digging while not blocking, part 1';
+    this.hint = 'Dig, and then clear a Tetris.\nGetting the T in a wrong direction will cause the Tetris well to be blocked.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -662,8 +662,8 @@ function Problem200(id){
                           [1,0,1,1,1,1,1,1,1,1],
                           [1,0,1,1,1,1,1,1,1,1]];
     this.ingredients = [S, Z, I];
-    this.caption = '不堵洞的进行挖掘　其２';
-    this.hint = '请一边挖掘一边做 TETRiS。\n使用先来的方块\n不一定是正确的。。';
+    this.caption = 'Digging while not blocking, part 2';
+    this.hint = 'Dig, and then clear a Tetris.\nIt\'s not always a good idea to use the first piece you get.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -691,8 +691,8 @@ function Problem200(id){
                           [1,0,1,1,1,1,1,1,1,1],
                           [1,0,1,1,1,1,1,1,1,1]];
     this.ingredients = [S, Z, I];
-    this.caption = '不堵洞的进行挖掘　其３';
-    this.hint = '顺便　放在提示位置的时候\n也可以同时准备T-SPIN 。\n预判（先读）的说明　会在之后见到。';
+    this.caption = 'Digging while not blocking, part 3';
+    this.hint = 'By the way, if you place as indicated, you would be preparing for a T-Spin too.\nWe\'ll cover forecasting in a later part.';
     this.isStrictGuide = true;
     this.guides = [G(3, 2, 5), G(1, 7, 6), G(3, 6, 9)];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -720,8 +720,8 @@ function Problem200(id){
                           [1,1,1,1,1,0,1,1,1,1],
                           [1,1,1,1,1,0,1,1,1,1]];
     this.ingredients = [S, T, I];
-    this.caption = '不堵洞的进行挖掘　其４';
-    this.hint = '挖掘并发动 TETRiS（消四）。\n考虑一下怎么摆　能不堵洞吧。';
+    this.caption = 'Digging while not blocking, part 4';
+    this.hint = 'Dig and clear a Tetris.\nThink about how to not block the well as you dig.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -749,8 +749,8 @@ function Problem200(id){
                           [1,1,1,1,1,0,1,1,1,1],
                           [1,1,1,1,1,0,1,1,1,1]];
     this.ingredients = [O, T, Z, J, I];
-    this.caption = '不堵洞的进行挖掘　其５';
-    this.hint = '挖掘并发动 TETRiS（消四）。\n最开始的Ｏ很烦人\n不考虑随便放的话\n后面会很难受。';
+    this.caption = 'Digging while not blocking, part 5';
+    this.hint = 'Did and clear a Tetris.\nThe O at the beginning is annoying, and it can be very painful later on if you just haphazardly place it somewhere random.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -778,8 +778,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,0,1,1],
                           [1,1,1,1,1,1,1,0,1,1]];
     this.ingredients = [J, T, Z, I];
-    this.caption = '不堵洞的进行挖掘　其６';
-    this.hint = '挖掘并发动 TETRiS（消四）。\n要想变强也必须掌握\n处理对方攻击的技术';
+    this.caption = 'Digging while not blocking, part 6';
+    this.hint = 'Dig and clear a Tetris.\nTo be good at multiplayer, you should also learn to deal with your opponent\'s attack.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -807,8 +807,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,1,0,1],
                           [1,1,1,1,1,1,1,1,0,1]];
     this.ingredients = [L, T, O, S, I];
-    this.caption = '不堵洞的进行挖掘　其７';
-    this.hint = '挖掘并发动 TETRiS（消四）。\n';
+    this.caption = 'Digging while not blocking, part 7';
+    this.hint = 'Dig and clear a Tetris.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -836,8 +836,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,1,0,1],
                           [1,1,1,1,1,1,1,1,0,1]];
     this.ingredients = [L, T, S, I];
-    this.caption = '削减式挖掘';
-    this.hint = '挖掘并发动 TETRiS（消四）。\n';
+    this.caption = 'Skimming and digging';
+    this.hint = 'Dig and clear a Tetris.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -865,8 +865,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,1,0,1],
                           [1,1,1,1,1,1,1,1,0,1]];
     this.ingredients = [J, Z, O, I, I];
-    this.caption = '挖掘与抵消　其１';
-    this.hint = '在对战中如果自己处于不利情况\n不是攻击对方\n而是需要抵消攻击（相杀）。';
+    this.caption = 'Digging and offsetting, part 1';
+    this.hint = 'If you are at a disadvantage in combat, you should focus on cancelling/offsetting incoming garbage, instead of sending attack.';
     this.isStrictGuide = true;
     this.guides = [G(0, 6, 3), G(3, 3, 3), G(0, -1, 3), 
                    G(1, 0, 4), G(1, 6, 16)];
@@ -895,8 +895,8 @@ function Problem200(id){
                           [0,1,1,1,1,1,1,1,1,1],
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [Z, L, J, T, S, I];
-    this.caption = '挖掘与抵消　其２';
-    this.hint = '习惯了的话　准备好\n TETRiS 和 T-SPIN \n等待对方打过来攻击吧。';
+    this.caption = 'Digging and offsetting, part 2';
+    this.hint = 'Get used to it, prepare Tetrises and T-Spins, and wait for opponent to send their garbage.';
     this.isStrictGuide = true;
     this.guides = [G(0, 3, 4), G(1, 5, 3), G(3, 8, 3),
                    G(2, 1, 4), G(3, 7, 5), G(1, 0, 8)];
@@ -925,8 +925,8 @@ function Problem200(id){
                           [0,0,1,1,1,1,1,1,0,0],
                           [0,0,0,1,1,1,1,0,0,0]];
     this.ingredients = [J, L];
-    this.caption = 'Ｊ·Ｌ的滑转插入　其１';
-    this.hint = '和Ｔ的滑转插入类似。\n在提示的位置\nＪ(蓝)左转　Ｌ(橙)右转。';
+    this.caption = 'Sliding in the J and L, part 1';
+    this.hint = 'Kinda like sliding a T for a Mini T-Spin.\nAt the indicated position, rotate left for J (blue) and right for L (orange).';
     this.isStrictGuide = false;
     this.guides = [G(1, -1, 17), G(3, 8, 17)];
     this.req = [1,0,0,0,0,0,0,0,0,0,0,0,0];
@@ -954,8 +954,8 @@ function Problem200(id){
                           [0,0,1,1,0,0,1,1,0,0],
                           [1,0,0,0,1,1,0,0,0,1]];
     this.ingredients = [J, L];
-    this.caption = 'Ｊ·Ｌ的滑转插入　其２';
-    this.hint = '方法和刚才相同。\n这样的空　也可以插入。\n在提示的位置Ｊ左转，Ｌ右转。';
+    this.caption = 'Sliding in the J and L, part 2';
+    this.hint = 'Same idea as before. It also works with a terrain like this.\nRotate left for J, right for L.';
     this.isStrictGuide = false;
     this.guides = [G(1, 0, 17), G(3, 7, 17)];
     this.req = [1,0,0,0,0,0,0,0,0,0,0,0,0];
@@ -983,8 +983,8 @@ function Problem200(id){
                           [1,0,0,0,1,1,0,0,0,1],
                           [1,0,1,0,1,1,0,1,0,1]];
     this.ingredients = [J, L];
-    this.caption = 'Ｊ·Ｌ的旋转嵌入　其１';
-    this.hint = '在提示的位置\nＪ向右转，Ｌ向左转。';
+    this.caption = 'Slotting in the J and L, part 1';
+    this.hint = 'At the indicated position, rotate right for J, left for L.';
     this.isStrictGuide = false;
     this.guides = [G(1, 0, 17), G(3, 7, 17)];
     this.req = [1,0,0,0,0,0,0,0,0,0,0,0,0];
@@ -1012,8 +1012,8 @@ function Problem200(id){
                           [0,0,0,1,1,1,1,0,0,0],
                           [1,1,0,1,1,1,1,0,1,1]];
     this.ingredients = [J, L];
-    this.caption = 'Ｊ·Ｌ的旋转嵌入　其２';
-    this.hint = '请在提示的位置Ｊ向右转，Ｌ向左转。\n啪嗒一下就进去了。';
+    this.caption = 'Slotting in the J and L, part 2';
+    this.hint = 'At the indicated location, rotate right for J, left for L.';
     this.isStrictGuide = false;
     this.guides = [G(1, -1, 16), G(3, 8, 16)];
     this.req = [0,1,0,0,0,0,0,0,0,0,0,0,0];
@@ -1041,8 +1041,8 @@ function Problem200(id){
                           [1,0,0,0,1,1,0,0,0,1],
                           [1,1,1,0,1,1,0,1,1,1]];
     this.ingredients = [J, L];
-    this.caption = 'Ｊ·Ｌ的当场回旋　其１';
-    this.hint = '请在提示的位置\nＪ左转，Ｌ右转的话，\n刚好就能进去。';
+    this.caption = 'Slamming in the J and L, part 1';
+    this.hint = 'At the indicated position, rotate left for J, right for L.';
     this.isStrictGuide = false;
     this.guides = [G(3, 2, 16), G(1, 5, 16)];
     this.req = [0,1,0,0,0,0,0,0,0,0,0,0,0];
@@ -1070,8 +1070,8 @@ function Problem200(id){
                           [1,0,0,0,0,0,0,0,0,1],
                           [1,1,1,0,1,1,0,1,1,1]];
     this.ingredients = [J, L];
-    this.caption = 'Ｊ·Ｌ的当场回旋　其２';
-    this.hint = '请在提示位置\nＪ左转，Ｌ右转。\n虽然地形不同，\n但和刚才的是同一种旋转。';
+    this.caption = 'Slamming in the J and L, part 2';
+    this.hint = 'At the indicated position, rotate left for J, right for L.\nIt\'s the same type of twist despite looking different.';
     this.isStrictGuide = false;
     this.guides = [G(3, 2, 16), G(1, 5, 16)];
     this.req = [1,0,0,0,0,0,0,0,0,0,0,0,0];
@@ -1099,8 +1099,8 @@ function Problem200(id){
                           [1,1,1,1,1,0,1,0,0,0],
                           [1,1,1,1,1,1,1,0,0,0]];
     this.ingredients = [J, L];
-    this.caption = 'Ｊ·Ｌ的逆滑插入';
-    this.hint = '请在提示的位置\nＪ右转、Ｌ左转。空隙被填满\n并且地形变得整齐。';
+    this.caption = 'Reverse sliding in the J and L';
+    this.hint = 'At the indicated position, rotate right for J, left for L.\nUseful for fixing a bad stack.';
     this.isStrictGuide = false;
     this.guides = [G(3, 2, 15), G(1, 6, 17)];
     this.req = [2,0,0,0,0,0,0,0,0,0,0,0,0];
@@ -1128,8 +1128,8 @@ function Problem200(id){
                           [1,0,1,0,0,0,1,0,1,1],
                           [1,0,0,0,0,0,0,0,1,1]];
     this.ingredients = [J, L, Z, T];
-    this.caption = 'Ｊ·Ｌ的潜入旋转';
-    this.hint = '请在提示位置Ｊ右转、Ｌ左转可以很好的进去。顺便也做一下 T-SPIN DOUBLE 吧。';
+    this.caption = 'Plugging in the J and L';
+    this.hint = 'At the indicated position, rotate right for J, left for L.\nWhile we are at it, might as well practice a T-Spin Double.';
     this.isStrictGuide = false;
     this.guides = [G(3, 2, 17), G(1, 4, 17)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1157,8 +1157,8 @@ function Problem200(id){
                           [1,1,0,1,1,1,1,0,1,1],
                           [1,0,0,1,1,1,1,0,0,1]];
     this.ingredients = [J, L];
-    this.caption = 'Ｊ·Ｌ的 T3 风格旋转　其１';
-    this.hint = '也可以按照 T-SPIN TRIPLE 的要领转入这样的空隙。';
+    this.caption = 'TST-style J/L-Spin Triple, part 1';
+    this.hint = 'This one works similar to a T-Spin Triple.';
     this.isStrictGuide = true;
     this.guides = [G(3, 1, 17), G(1, 6, 17)];
     this.req = [0,0,1,0,0,0,0,0,0,0,0,0,0];
@@ -1186,8 +1186,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,0,1,1],
                           [1,1,1,1,1,1,1,0,0,1]];
     this.ingredients = [J, L, J, L];
-    this.caption = 'Ｊ·Ｌ的 T3 风格旋转　其２';
-    this.hint = '和Ｔ不同　屋檐的地方\n即使高１格　远１格\n也没有问题。';
+    this.caption = 'TST-style J/L-Spin Triple, part 2';
+    this.hint = 'Unlike T, a L/J spin like this also works if the overhang is one tile higher or further.';
     this.isStrictGuide = true;
     this.guides = [G(3, 2, 8), G(1, 5, 11), G(3, 1, 14), G(1, 6, 17)];
     this.req = [0,0,4,0,0,0,0,0,0,0,0,0,0];
@@ -1215,8 +1215,8 @@ function Problem200(id){
                           [1,1,1,1,1,0,0,1,1,1],
                           [1,1,1,1,0,0,1,1,1,1]];
     this.ingredients = [S];
-    this.caption = 'Ｓ的绕圈回转';
-    this.hint = '右转一次Ｓ(绿) 立起来\n在提示的位置右转。\n【再重复一次】。Ｓ立起来的时候\n是初始方向「右转」！';
+    this.caption = 'Spinning S, without walls';
+    this.hint = 'Rotate the S (green) RIGHT once to make it vertical, and RIGHT again at the indicated position.\nI repeat, rotate RIGHT for both rotations.';
     this.isStrictGuide = false;
     this.guides = [G(1, 3, 16)];
     this.req = [0,1,0,0,0,0,0,0,0,0,0,0,0];
@@ -1244,8 +1244,8 @@ function Problem200(id){
                           [1,1,0,0,1,1,1,1,1,1],
                           [1,1,1,0,0,1,1,1,1,1]];
     this.ingredients = [Z];
-    this.caption = 'Ｚ的绕圈回转';
-    this.hint = '这次，我们把Ｚ(红)用左转\n竖起来，然后用左转进入。';
+    this.caption = 'Spinning Z, without walls';
+    this.hint = 'For Z (red), rotate LEFT to get it vertical, and LEFT to spin it in.';
     this.isStrictGuide = false;
     this.guides = [G(3, 3, 16)];
     this.req = [0,1,0,0,0,0,0,0,0,0,0,0,0];
@@ -1273,8 +1273,8 @@ function Problem200(id){
                           [1,1,0,0,1,1,1,1,1,1],
                           [1,1,1,0,0,1,1,1,1,1]];
     this.ingredients = [S, S, Z, Z, S, Z];
-    this.caption = 'Ｓ·Ｚ的绕圈回转练习';
-    this.hint = '多做几遍，用身体去记\n正确的旋转方向。';
+    this.caption = 'Practice: S/Z spin without walls';
+    this.hint = 'Do it a few times, get your muscle memory for which direction you need to rotate.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,6,0,0,0,0,0,0,0,0,0,0,0];
@@ -1302,8 +1302,8 @@ function Problem200(id){
                           [1,1,1,0,0,1,1,1,1,1],
                           [1,1,0,0,1,1,1,1,1,1]];
     this.ingredients = [S];
-    this.caption = 'Ｓ的塞入旋转';
-    this.hint = '这次　左转立起来\n移到提示位置后　再一次左转。\n居然和前面的情形方向相反！';
+    this.caption = 'Spinning S, with walls';
+    this.hint = 'This time, rotate LEFT to get it vertical, and LEFT again at the indicated position.\nThe wall made the rotation direction opposite.';
     this.isStrictGuide = false;
     this.guides = [G(3, 3, 16)];
     this.req = [0,1,0,0,0,0,0,0,0,0,0,0,0];
@@ -1331,8 +1331,8 @@ function Problem200(id){
                           [1,1,1,1,0,0,1,1,1,1],
                           [1,1,1,1,1,0,0,1,1,1]];
     this.ingredients = [Z];
-    this.caption = 'Ｚ的塞入旋转';
-    this.hint = '这里也是　旋转方向相反\n右转立起来后　再右转转入。';
+    this.caption = 'Spinning Z, with walls';
+    this.hint = 'Similarly, opposite from the wall-less situation, rotate RIGHT to get it vertical and RIGHT to spin it in.';
     this.isStrictGuide = false;
     this.guides = [G(1, 3, 16)];
     this.req = [0,1,0,0,0,0,0,0,0,0,0,0,0];
@@ -1360,8 +1360,8 @@ function Problem200(id){
                           [1,0,0,1,1,1,1,0,0,1],
                           [1,0,0,1,1,1,1,0,0,1]];
     this.ingredients = [S, Z, S, Z, S, Z, S, Z];
-    this.caption = 'Ｓ·Ｚ的塞入旋转练习';
-    this.hint = '因为是常用的技巧\n所以需要的时候随时都可以使用。注意最后一组！';
+    this.caption = 'Practice: S/Z spin with walls';
+    this.hint = 'It\'s used quite often, so get it memorized well.\nPS. That last pair of pieces might or might not be different...';
     this.isStrictGuide = true;
     this.guides = [G(2, 1, 14), G(2, 6, 14), G(2, 1, 15), G(2, 6, 15),
                    G(2, 1, 16), G(2, 6, 16), G(2, 1, 17), G(2, 6, 17)];
@@ -1390,8 +1390,8 @@ function Problem200(id){
                           [1,1,0,0,1,1,0,0,1,1],
                           [1,0,0,0,1,1,0,0,0,1]];
     this.ingredients = [S, Z];
-    this.caption = 'Ｓ·Ｚ的滑转插入';
-    this.hint = '这个情况下\n「左转→左转」「右转→右转」\n哪个都可以进去';
+    this.caption = 'Sliding in the S/Z';
+    this.hint = 'Here it works if you rotate left then left, and also works if you rotate right then right.';
     this.isStrictGuide = true;
     this.guides = [G(2, 1, 17), G(2, 6, 17)];
     this.req = [1,0,0,0,0,0,0,0,0,0,0,0,0];
@@ -1419,8 +1419,8 @@ function Problem200(id){
                           [1,0,0,1,1,1,1,0,0,1],
                           [1,1,0,1,1,1,1,0,1,1]];
     this.ingredients = [S, Z];
-    this.caption = 'Ｓ·Ｚ的大外回旋　其１';
-    this.hint = '虽然看起来有点像骗人\n在提示的位置　Ｓ左转Ｚ右转\n看起来进不去的却进去了。';
+    this.caption = 'The no-overhang S/Z-Spin Triple, part 1';
+    this.hint = 'Hard to believe it at first glance, but rotate left for S and right for Z at the indicated position can just get them in.';
     this.isStrictGuide = false;
     this.guides = [G(0, 1, 15), G(0, 6, 15)];
     this.req = [0,0,1,0,0,0,0,0,0,0,0,0,0];
@@ -1448,8 +1448,8 @@ function Problem200(id){
                           [1,1,0,0,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [I, S, L, Z];
-    this.caption = 'Ｓ·Ｚ的大外回旋　其２';
-    this.hint = '像Ｓ和Ｚ这样的旋转　必须要有充当「枕头」的块。';
+    this.caption = 'The no-overhang S/Z-Spin Triple, part 2';
+    this.hint = 'While this doesn\'t require an overhang, it does call for a block as a pivot. (They call it a "pillow" in Chinese.)';
     this.isStrictGuide = true;
     this.guides = [G(0, 6, 12), G(3, 4, 14), G(1, -1, 14), G(1, 1, 17)];
     this.req = [0,0,2,0,0,0,0,0,0,0,0,0,0];
@@ -1477,8 +1477,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,0,0,1],
                           [1,1,1,1,1,1,1,0,1,1]];
     this.ingredients = [S, S, Z];
-    this.caption = 'Ｓ·Ｚ的 T3 风格旋转　其２';
-    this.hint = 'T-SPIN TRIPLE 风格。\n屋檐部分就算「远１格」\n或「高１格」也没关系。';
+    this.caption = 'S/Z-Spin Triple with overhang';
+    this.hint = 'T-Spin Triple-style. The overhang can be one block further or one block higher.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,3,0,0,0,0,0,0,0,0,0,0];
@@ -1506,8 +1506,8 @@ function Problem200(id){
                           [0,0,0,0,0,1,1,0,0,0],
                           [1,1,1,1,1,1,0,0,0,0]];
     this.ingredients = [I];
-    this.caption = 'Ｉ的特殊旋转　其１';
-    this.hint = '左转　然后到提示的位置\n左转后进入。';
+    this.caption = 'Spinning the I piece, part 1';
+    this.hint = 'Rotate LEFT first, then LEFT at the indicated position.';
     this.isStrictGuide = false;
     this.guides = [G(3, 8, 16)];
     this.req = [1,0,0,0,0,0,0,0,0,0,0,0,0];
@@ -1535,8 +1535,8 @@ function Problem200(id){
                           [0,0,0,1,1,0,0,0,0,0],
                           [0,0,0,0,1,1,1,1,1,1]];
     this.ingredients = [I];
-    this.caption = 'Ｉ的特殊旋转　其２';
-    this.hint = '接下来是　右转后\n立在提示位置　再右转。';
+    this.caption = 'Spinning the I piece, part 2';
+    this.hint = 'The opposite side, rotate RIGHT first, then RIGHT at the indicated position.';
     this.isStrictGuide = false;
     this.guides = [G(1, -2, 16)];
     this.req = [1,0,0,0,0,0,0,0,0,0,0,0,0];
@@ -1564,8 +1564,8 @@ function Problem200(id){
                           [1,1,0,1,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [I];
-    this.caption = 'Ｉ的特殊旋转　其３';
-    this.hint = '保持原状　降落到\n提示位置　再右转。';
+    this.caption = 'Spinning the I piece, part 3';
+    this.hint = 'Don\'t rotate, drop it to the indicated position, then rotate RIGHT.';
     this.isStrictGuide = false;
     this.guides = [G(0, 2, 15)];
     this.req = [0,0,1,0,0,0,0,0,0,0,0,0,0];
@@ -1593,8 +1593,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,0,1,1],
                           [1,1,1,1,1,1,1,0,1,1]];
     this.ingredients = [I];
-    this.caption = 'Ｉ的特殊旋转　其４';
-    this.hint = '想进入右侧的话　要旋转２次　翻过来才能进去！翻过来后在提示位置左转。';
+    this.caption = 'Spinning the I piece, part 4';
+    this.hint = 'However, if you want to get it in the oppoiste side, you need to flip the I piece over (rotate twice) first. Then rotate LEFT at the indicated position.';
     this.isStrictGuide = false;
     this.guides = [G(2, 4, 14)];
     this.req = [0,0,1,0,0,0,0,0,0,0,0,0,0];
@@ -1622,8 +1622,8 @@ function Problem200(id){
                           [1,1,1,0,1,1,1,0,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [I];
-    this.caption = 'Ｉ的特殊旋转　其５';
-    this.hint = '虽然地形凹凸不平\n但要转进去的话\n还是可以转进去的。';
+    this.caption = 'Spinning the I piece, part 5';
+    this.hint = 'This also works even if the terrain is bumpy.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [1,0,0,0,0,0,0,0,0,0,0,0,0];
@@ -1651,8 +1651,8 @@ function Problem200(id){
                           [1,1,1,1,1,0,0,1,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [T];
-    this.caption = '「 T-SPIN NEO 」';
-    this.hint = '在提示位置　右旋转的话\n居然可以急降落到下方\n形成 (mini) T2 ！\n（译注：转下去才算Spin，\n只移动到位是不行的）';
+    this.caption = '"Neo" T-Spin';
+    this.hint = 'Rotate right at the indicated position, and it will teleport down and be a (Mini) T-Spin Double.\n(You have to rotate it; just putting it there won\'t work.)';
     this.isStrictGuide = false;
     this.guides = [G(2, 5, 15)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1680,8 +1680,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,0,0,1,1],
                           [1,1,1,1,1,1,1,0,1,1]];
     this.ingredients = [T];
-    this.caption = '「 T-SPIN FIN 」';
-    this.hint = '在提示的位置　右转的话\n这也是 T2。（译注：操作失误的话\n先移动到终点位置\n转出来再转进去也可以）';
+    this.caption = '"Fin" T-Spin';
+    this.hint = 'Rotate right at the indicated position also makes it a T-Spin Double.\n(If you failed the timing for the rotation, you can still get the piece out and try again.)';
     this.isStrictGuide = false;
     this.guides = [G(2, 5, 15)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1709,8 +1709,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,0,0,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [T];
-    this.caption = '「 T-SPIN ISO 」';
-    this.hint = '这回在提示的位置左转。\n这个做成了的话 观众席估计会沸腾的吧。';
+    this.caption = '"Iso" T-Spin';
+    this.hint = 'This time rotate left at the indicated position.\nThe original Japanese author of this game thought this was impressive.';
     this.isStrictGuide = false;
     this.guides = [G(2, 5, 15)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1738,8 +1738,8 @@ function Problem200(id){
                           [1,1,1,1,1,0,0,1,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [L, J, T];
-    this.caption = '「 T-SPIN FIN 」的搭建　其１';
-    this.hint = '瞄准「 T-SPIN FIN 」。\nFIN 是一种新型 T2，它在实战中也相对有效。';
+    this.caption = 'Building the Fin, part 1';
+    this.hint = 'Here let\'s try building a setup for a Fin.\nIt\'s somewhat useful in combat.';
     this.isStrictGuide = true;
     this.guides = [G(0, 7, 16), G(2, 5, 14), G(3, 5, 17)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1767,8 +1767,8 @@ function Problem200(id){
                           [1,1,1,1,1,0,0,1,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [O, I, T, S, Z, T];
-    this.caption = '「 T-SPIN FIN 」的搭建　其２';
-    this.hint = '「 T-SPIN FIN 」后\n消除 T2 。';
+    this.caption = 'Building the Fin, part 2';
+    this.hint = 'After the Fin, build and clear a regular T-Spin Double.';
     this.isStrictGuide = true;
     this.guides = [G(0, 6, 16), G(0, 4, 14), G(3, 5, 17),
                    G(0, 4, 18), G(0, 0, 18), G(2, 2, 17)];
@@ -1797,8 +1797,8 @@ function Problem200(id){
                           [0,1,1,1,1,0,1,1,1,0],
                           [1,1,1,1,1,0,1,1,1,1]];
     this.ingredients = [J, S, L, Z, I];
-    this.caption = 'SRS 的后转插入　其１';
-    this.hint = '通常为Ｓ→Ｊ(Ｚ→Ｌ)的放置顺序\n反过来　也可以。';
+    this.caption = 'Handing wrong-order pieces, part 1';
+    this.hint = 'While you would normally place a S/Z before J/L here, you can do the reverse if pieces come in the wrong order.';
     this.isStrictGuide = true;
     this.guides = [G(1, -1, 16), G(2, 1, 15), G(3, 8, 16), G(2, 6, 15), G(1, 3, 16)];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -1826,8 +1826,8 @@ function Problem200(id){
                           [1,1,1,1,0,1,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [Z, L, I];
-    this.caption = 'SRS 的后转插入　其２';
-    this.hint = '一般先放Ｌ比较好\n但是在某些情况下\n有必要反过来做。';
+    this.caption = 'Handing wrong-order pieces, part 2';
+    this.hint = 'Similarly, here the Z comes before L, and you can do this to solve it.';
     this.isStrictGuide = true;
     this.guides = [G(0, 6, 15), G(0, 7, 16), G(3, 3, 16)];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -1855,8 +1855,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,1,1,0],
                           [1,1,1,1,1,1,1,1,1,0]];
     this.ingredients = [I, J, I];
-    this.caption = 'SRS 的后转插入　其３';
-    this.hint = '这个特殊的旋转系统叫做\nSRS (Super Rotation System)。\n（超级旋转系统）';
+    this.caption = 'Handing wrong-order pieces, part 3';
+    this.hint = 'Just so that you know, all these spin moves we\'re doing are powered by something called the Super Rotation System (SRS).';
     this.isStrictGuide = true;
     this.guides = [G(0, 1, 15), G(0, 0, 16), G(1, 7, 16)];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -1884,8 +1884,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,0,1,1],
                           [1,1,1,1,1,1,1,0,1,1]];
     this.ingredients = [J, Z, I];
-    this.caption = 'SRS 的后转插入　其４';
-    this.hint = '如果能很快想到这种高效率的堆积方式就好了。出题的也是这么想的…。';
+    this.caption = 'Handing wrong-order pieces, part 4';
+    this.hint = 'Only if I can pull this off in real time combat situation... says the person who wrote this thing in the first place.';
     this.isStrictGuide = true;
     this.guides = [G(3, 3, 14), G(2, 1, 15)];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -1913,8 +1913,8 @@ function Problem200(id){
                           [0,0,0,1,1,0,1,1,1,1],
                           [1,1,1,1,1,0,1,1,1,1]];
     this.ingredients = [J, T, I];
-    this.caption = '滑转插入的活用　其１';
-    this.hint = '滑转插入的技巧は\n在填补小空隙时\n非常有用。';
+    this.caption = 'Application of the slide, part 1';
+    this.hint = 'Sliding in pieces is useful when you want to fill in a tiny overhang like this.';
     this.isStrictGuide = true;
     this.guides = [G(0, 0, 17), G(2, 0, 15), G(1, 3, 16)];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -1942,8 +1942,8 @@ function Problem200(id){
                           [1,1,0,0,0,0,1,1,1,1],
                           [1,1,1,0,0,1,1,1,1,1]];
     this.ingredients = [Z];
-    this.caption = '滑转插入的活用　其２';
-    this.hint = '右转２次　或者\n左转２次　进入。';
+    this.caption = 'Application of the slide, part 2';
+    this.hint = 'Reminder: right then right, left then left, both work.';
     this.isStrictGuide = true;
     this.guides = [G(2, 2, 17)];
     this.req = [1,0,0,0,0,0,0,0,0,0,0,0,0];
@@ -1971,8 +1971,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,0,1,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [L, I];
-    this.caption = '滑转插入的活用　其３';
-    this.hint = 'Ｔ不来！　而且大危机！\n这种时候　只能放弃Ｔ转去挖掘了。';
+    this.caption = 'Application of the slide, part 3';
+    this.hint = 'No T piece but we\'re near topping out!\nGuess better off give up the T-Spin and dig instead.';
     this.isStrictGuide = true;
     this.guides = [G(0, 3, 3), G(3, 3, 4)];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -2000,8 +2000,8 @@ function Problem200(id){
                           [1,1,1,0,0,1,1,1,1,1],
                           [1,1,0,0,1,1,1,1,1,1]];
     this.ingredients = [O, S];
-    this.caption = '制作 SRS 用墙壁　其１';
-    this.hint = 'Ｏ(黄)用来做墙壁。\nＯ不放在那的话　\nＳ在这个地方转不进去。';
+    this.caption = 'Walls for the spins, part 1';
+    this.hint = 'Put the O (yellow) there as a wall.\nWithout a wall there, the S can\'t go in.';
     this.isStrictGuide = true;
     this.guides = [G(0, 4, 16), G(2, 2, 17)];
     this.req = [0,1,0,0,0,0,0,0,0,0,0,0,0];
@@ -2029,8 +2029,8 @@ function Problem200(id){
                           [1,1,0,0,0,0,0,0,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [J, L];
-    this.caption = '制作 SRS 用墙壁　其２';
-    this.hint = '如果有难以填补的空隙，\n考虑一下 SRS 是否能解决这个问题。';
+    this.caption = 'Walls for the spins, part 2';
+    this.hint = 'If there is a gap that is tricky to fill in, try seeing if any of the SRS twists will get things in.';
     this.isStrictGuide = true;
     this.guides = [G(0, 5, 17), G(2, 2, 17)];
     this.req = [0,1,0,0,0,0,0,0,0,0,0,0,0];
@@ -2058,8 +2058,8 @@ function Problem200(id){
                           [1,1,1,0,0,0,1,1,1,1],
                           [1,1,1,1,0,0,1,1,1,1]];
     this.ingredients = [J, Z];
-    this.caption = '填洞';
-    this.hint = '使用 T-SPIN TRIPLE 风格的旋转\n或Ｓ·Ｚ的大外回旋\n可以用来填洞。';
+    this.caption = 'Filling in the hole';
+    this.hint = 'TST-style rotations, or the no-overhang S/Z Triple rotation, are useful for filling in holes.';
     this.isStrictGuide = true;
     this.guides = [G(0, 1, 15), G(2, 3, 17)];
     this.req = [1,0,0,0,0,0,0,0,0,0,0,0,0];
@@ -2087,8 +2087,8 @@ function Problem200(id){
                           [1,1,0,1,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [L, I];
-    this.caption = '旋转插入的实践　其１';
-    this.hint = '请发动 TETRiS。\n活用旋转插入\n把地形变得整齐吧。';
+    this.caption = 'Applying SRS, part 1';
+    this.hint = 'Clear a Tetris.\nEven out the stack with what you\'ve learned.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -2116,8 +2116,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,0,1,1],
                           [1,1,1,1,1,1,1,0,1,1]];
     this.ingredients = [S, I];
-    this.caption = '旋转插入的实践　其２';
-    this.hint = '请发动 TETRiS。';
+    this.caption = 'Applying SRS, part 2';
+    this.hint = 'Clear a Tetris.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -2145,8 +2145,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,0,1,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [T, I];
-    this.caption = '旋转插入的实践　其３';
-    this.hint = '请发动 TETRiS。\n虽然这个Ｔ的转入方法没学\n不过已经学到这里了你也很快就能明白的。';
+    this.caption = 'Applying SRS, part 3';
+    this.hint = 'Clear a Tetris.\nWhile we haven\'t seen this particular thing with the T, it\'s still quite straight forward.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -2174,8 +2174,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,1,0,1],
                           [1,1,1,1,1,1,1,1,0,1]];
     this.ingredients = [Z, L, I];
-    this.caption = '旋转插入的实践　其４';
-    this.hint = '请发动 TETRiS。\nＬ的当场回旋　你还记得吗？';
+    this.caption = 'Applying SRS, part 4';
+    this.hint = 'Clear a Tetris.\nRemember that thing with the L?';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -2203,8 +2203,8 @@ function Problem200(id){
                           [1,1,0,1,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [J, Z, I];
-    this.caption = '旋转插入的实践　其５';
-    this.hint = '请发动 TETRiS。\n SRS 的特殊旋转\n在可以自由自在的使用之前\n请反复练习。';
+    this.caption = 'Applying SRS, part 5';
+    this.hint = 'Clear a Tetris.\nDo make sure to practice your SRS twists.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -2232,8 +2232,8 @@ function Problem200(id){
                           [0,1,1,1,1,1,1,1,1,1],
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [O, S, I];
-    this.caption = '旋转插入的实践　其６';
-    this.hint = '请发动 TETRiS。\n一遍预判摆放、一边补洞。';
+    this.caption = 'Applying SRS, part 6';
+    this.hint = 'Clear a Tetris.\nFill in the gaps as you plan ahead your piece placements.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -2261,8 +2261,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,0,1,1],
                           [1,1,1,1,1,1,1,0,1,1]];
     this.ingredients = [L, Z, I];
-    this.caption = '旋转插入的实践　其７';
-    this.hint = '请发动 TETRiS。\n提示是「Ｚ消３行 」。';
+    this.caption = 'Applying SRS, part 7';
+    this.hint = 'Clear a Tetris.\nHint: clear a Triple with a Z.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -2290,8 +2290,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,1,1,0],
                           [1,1,1,1,1,1,1,1,1,0]];
     this.ingredients = [J, S, J, I];
-    this.caption = '旋转插入的实践　其８';
-    this.hint = '请发动 TETRiS。\n现在是练习　请慢慢的\n多次尝试　来解决问题。';
+    this.caption = 'Applying SRS, part 8';
+    this.hint = 'Clear a Tetris.\nFeel free to take your time and try a few times; after all it\'s still practice.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -2319,8 +2319,8 @@ function Problem200(id){
                           [1,1,0,1,1,1,0,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [O, T, S, I];
-    this.caption = '旋转插入的实践　其９';
-    this.hint = '请发动 TETRiS。\nＳ以大外回旋的方式\n旋转插入进去的。';
+    this.caption = 'Applying SRS, part 9';
+    this.hint = 'Clear a Tetris.\nHint: do the no-overhang Triple spin with the S.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -2348,8 +2348,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,1,1,0],
                           [1,1,1,1,1,1,1,1,1,0]];
     this.ingredients = [T, Z, J, I];
-    this.caption = '旋转插入的实践　其10';
-    this.hint = '请发动 TETRiS。\nＴ左转１次然后落下。';
+    this.caption = 'Applying SRS, part 10';
+    this.hint = 'Clear a Tetris.\nHint: for the T, rotate left then hard drop.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -2377,8 +2377,8 @@ function Problem200(id){
                           [1,1,1,1,1,0,1,1,1,1],
                           [1,1,1,1,1,0,1,1,1,1]];
     this.ingredients = [J, O, Z, T];
-    this.caption = '期中考试　其１';
-    this.hint = '请发动 T2。';
+    this.caption = 'Mid-term quiz, part 1';
+    this.hint = 'Clear a T-Spin Double.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -2406,8 +2406,8 @@ function Problem200(id){
                           [1,1,1,1,1,0,1,1,1,1],
                           [1,1,1,1,1,0,1,1,1,1]];
     this.ingredients = [O, T, O, T];
-    this.caption = '期中考试　其２';
-    this.hint = '请发动 Tmini ２回。\n为了不让Ｔ空转\n用Ｏ做一下帮助吧';
+    this.caption = 'Mid-term quiz, part 2';
+    this.hint = 'Clear a Mini T-Spin Single twice.\n You\'ll need the O pieces to make sure the T registers a Spin.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,2,0,0,0,0,0,0];
@@ -2435,8 +2435,8 @@ function Problem200(id){
                           [1,1,0,0,0,1,1,1,1,1],
                           [1,1,0,1,0,1,1,1,1,1]];
     this.ingredients = [J, L, O, T];
-    this.caption = '期中考试　其３';
-    this.hint = '请发动 T3。\n虽然不一定要做\n见到这个形状的话\n有做 T3 的意识比较好。';
+    this.caption = 'Mid-term quiz, part 3';
+    this.hint = 'Clear a T-Spin Triple.\nWhile you don\'t have to do a TST in this situation in real combat, know that it\s always on your list of possible things to do.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,0,1,0,0,0];
@@ -2464,8 +2464,8 @@ function Problem200(id){
                           [1,1,1,1,0,1,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [J, L, I];
-    this.caption = '期中考试　其４';
-    this.hint = '请发动 TETRiS。\n掌握旋转插入的要领了吗？';
+    this.caption = 'Mid-term quiz, part 4';
+    this.hint = 'Clear a Tetris.\nRemember the twists.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -2493,8 +2493,8 @@ function Problem200(id){
                           [1,1,1,1,0,1,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [Z, Z, I];
-    this.caption = '期中考试　其５';
-    this.hint = '请发动 TETRiS。\nＳ和Ｚ的回转在实战中也使用频率非常的高。\n一定要掌握好！';
+    this.caption = 'Mid-term quiz, part 5';
+    this.hint = 'Clear a Tetris.\nS- and Z-Spins are quite common in real games, make sure to remember them well.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -2522,8 +2522,8 @@ function Problem200(id){
                           [0,1,1,1,0,1,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [I, J, S, I];
-    this.caption = '期中考试　其６';
-    this.hint = '请发动 TETRiS。';
+    this.caption = 'Mid-term quiz, part 6';
+    this.hint = 'Clear a Tetris.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -2551,8 +2551,8 @@ function Problem200(id){
                           [0,1,1,1,1,1,1,1,1,1],
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [T, L, Z, S, I, I];
-    this.caption = '期中考试　其７';
-    this.hint = '请在左下的洞\n发动 TETRiS。';
+    this.caption = 'Mid-term quiz, part 7';
+    this.hint = 'Clear a Tetris in the (blocked-off) well on the bottom left.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,1,1,0,0,0,0,0,0,0,0,0];
@@ -2580,8 +2580,8 @@ function Problem200(id){
                           [1,1,1,1,0,1,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [O, J, Z];
-    this.caption = '期中考试　其８';
-    this.hint = '请发动Ｚ旋消３。';
+    this.caption = 'Mid-term quiz, part 8';
+    this.hint = 'Clear a Z-Spin Triple.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,1,0,0,0,0,0,0,0,0,0,0];
@@ -2609,8 +2609,8 @@ function Problem200(id){
                           [1,1,1,1,1,0,0,0,1,1],
                           [1,1,1,1,1,0,1,1,1,1]];
     this.ingredients = [L, J, T];
-    this.caption = '期中考试　其９';
-    this.hint = '请发动 T2。';
+    this.caption = 'Mid-term quiz, part 9';
+    this.hint = 'Clear a T-Spin Double.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -2638,8 +2638,8 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [S, T, L, J, Z, O, I, S, L, Z];
-    this.caption = '期中考试　其10';
-    this.hint = '请发动Perfect Clear。\n前７块请遵循提示摆放。';
+    this.caption = 'Mid-term quiz, part 10';
+    this.hint = 'Get a Perfect Clear. Follow the guide for the first 7 pieces.';
     this.isStrictGuide = true;
     this.guides = [G(0, 1, 18), G(1, -1, 17), G(1, 5, 17), G(3, 8, 17), G(0, 0, 16), G(0, 6, 17), G(0, 6, 15)];
     this.req = [0,0,0,0,0,0,0,0,0,0,1,0,0];
@@ -2667,8 +2667,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,1,0,0],
                           [1,1,1,1,1,1,1,1,0,0]];
     this.ingredients = [O, O, O, O, O, O, O, O, O];
-    this.caption = '「最优化」学习之前';
-    this.hint = '快速判断　需要横向移动多少吧。\n在接下来的「最优化」中\n「通过最低限度的移动进行迅速处理」\n的想法很重要。';
+    this.caption = 'Before learning Finesse';
+    this.hint = 'Try to quickly figure out how much sideways movement you need.\nThe core idea of finesse is to quickly place pieces with the fewest possible button presses.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,9,0,0,0,0,0,0,0,0,0,0,0];
@@ -2696,8 +2696,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,0,0,1],
                           [1,1,1,1,1,1,1,0,0,1]];
     this.ingredients = [O, O, O, O, O, O, O, O];
-    this.caption = 'Ｏ块的最优化';
-    this.hint = '移到边上后　往回移一格落下。\n虽然就算移动错了　\n消行的话也可以过关　\n但是可以的话　操作尽可能简单化。';
+    this.caption = 'Finesse with the O';
+    this.hint = 'DAS (i.e. hold a direction) to the wall, then tap the opposite direction to move back one block.\nWhile this game will give you the pass even if you don\'t do proper finesse, please still try to practice the technique.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,8,0,0,0,0,0,0,0,0,0,0,0];
@@ -2725,8 +2725,8 @@ function Problem200(id){
                           [1,1,1,1,0,1,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [I, I, I, I];
-    this.caption = 'Ｉ块的最优化　其１';
-    this.hint = '这个问题　不需要横向移动\n就可以过关。提示是\n「分别使用右转和左转」。';
+    this.caption = 'Finesse with the I, part 1';
+    this.hint = 'No horizontal movement needed for this one. Rotate either right or left.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,4,0,0,0,0,0,0,0,0,0];
@@ -2754,8 +2754,8 @@ function Problem200(id){
                           [1,1,1,0,1,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [I, I, I, I];
-    this.caption = 'Ｉ块的最优化　其２';
-    this.hint = '「右转＋右移１」和「左转＋左移１」是最优操作。\n把操作控制在最小限度\n这样就能减少失误了。\n';
+    this.caption = 'Finesse with the I, part 2';
+    this.hint = 'For these placements, "rotate right/left + tap right left once" is the optimal way to move.\nKeep button presses at a minimum helps reduce mistakes.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,4,0,0,0,0,0,0,0,0,0];
@@ -2783,8 +2783,8 @@ function Problem200(id){
                           [1,0,1,1,1,1,1,1,1,1],
                           [1,0,1,1,1,1,1,1,1,1]];
     this.ingredients = [I, I, I, I];
-    this.caption = 'Ｉ块的最优化　其３';
-    this.hint = '移到右端靠墙后，松开移动键\n再右转。　或者反过来。\n移动到墙边的时间\n会因游戏（和参数设置）而异';
+    this.caption = 'Finesse with the I, part 3';
+    this.hint = 'DAS to the right wall, RELEASE right, and rotate right. Or the left version for the other side.\nIt might take a different amount of time to get the piece all the way to the wall, depending on the game and/or its settings.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,4,0,0,0,0,0,0,0,0,0];
@@ -2812,8 +2812,8 @@ function Problem200(id){
                           [1,1,0,1,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [I, I, I, I];
-    this.caption = 'Ｉ块的最优化　其４';
-    this.hint = '靠到最右端左转　和\n靠到最左端右转。\n嗯。好复杂...';
+    this.caption = 'Finesse with the I, part 4';
+    this.hint = 'DAS right, rotate left.\nDAS left, rotate right.\nAh so complicated';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,4,0,0,0,0,0,0,0,0,0];
@@ -2841,8 +2841,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,0,0,1],
                           [1,1,1,1,1,1,1,0,0,1]];
     this.ingredients = [T, T, I, T, T, I];
-    this.caption = 'Ｔ块的最优化　其１';
-    this.hint = 'Ｔ左端靠墙后　右转\n感觉好的话　离墙刚好差一格。\n反过来那一侧用左转。';
+    this.caption = 'Finesse with the T, part 1';
+    this.hint = 'For T, DAS to the left, rotate right, and it\'s perfectly one block from the wall.\nOn the right wall, rotate left instead.';
     this.isStrictGuide = true;
     this.guides = [G(1, 0, 11), G(1, 0, 9), G(1, 0, 10),
                    G(3, 7, 17), G(3, 7, 15), G(3, 6, 16)];
@@ -2871,8 +2871,8 @@ function Problem200(id){
                           [1,0,0,0,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [T, T, T];
-    this.caption = 'Ｔ块的最优化　其２';
-    this.hint = '和上个问题一样　左端靠墙后\n右转。\n然后在提示的位置\n右转就有　T2 ！';
+    this.caption = 'Finesse with the T, part 2';
+    this.hint = 'Like last time, DAS left, rotate right.\nSoft drop to indicated position, rotate right, and you have a T-Spin Double.';
     this.isStrictGuide = false;
     this.guides = [G(1, 0, 12), G(1, 0, 14), G(1, 0, 16)];
     this.req = [0,0,0,0,0,0,0,0,3,0,0,0,0];
@@ -2900,8 +2900,8 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,1,0,1],
                           [1,1,1,1,1,1,1,1,0,1]];
     this.ingredients = [J, J, J, L, L, L];
-    this.caption = 'Ｊ·Ｌ的最优化　其１';
-    this.hint = '左端靠墙后右转　\n反之亦然。和Ｔ的情况\n大体相同。';
+    this.caption = 'Finesse with J/L, part 1';
+    this.hint = 'DAS left, rotate right; vice versa on the other side.\nSimilar to what we did with the T.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,6,0,0,0,0,0,0,0,0,0,0];
@@ -2929,8 +2929,8 @@ function Problem200(id){
                           [1,1,1,1,1,0,1,1,1,1],
                           [1,1,1,1,1,0,1,1,1,1]];
     this.ingredients = [J, L, I];
-    this.caption = 'Ｊ·Ｌ的最优化　其２';
-    this.hint = '左端靠墙后右转，反之亦然。\n如果能意识到方块绕正中心旋转的话\n记忆起来会很容易。';
+    this.caption = 'Finesse with J/L, part 2';
+    this.hint = 'DAS right, rotate left, vice versa on the other side.\nShould be easy to understand if you realize the piece rotates around the middle block of the 3-long part.';
     this.isStrictGuide = true;
     this.guides = [G(3, 7, 14), G(1, 0, 14), G(1, 3, 16)];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
