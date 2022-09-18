@@ -10,13 +10,13 @@ The name "World rules" comes from the GBA game Tetris Worlds (2004), which has b
 
 So, what rules are there in Guideline? What made it different from Tetris games before that? Here are some typical features:
 
-> has HOLD, where you can hold onto one piece for later
-> has soft drop (increase falling speed), hard drop (instantly drop and lock), ghost block (preview of landing position)
-> has many NEXT previews, at least 3, usually 5-6
-> has "3-corner" T-Spin detection (last movement is rotation, 3 of 4 corners of the T occupied by blocks or out-of-bound)
-> has Super Rotation System, the thing that made the Spins possible
-> has standard piece colors (cyan I, purple T, blue J, orange L, yellow O, green S, red Z)
-> has "bag 7" randomizer (the first 7 pieces are the 7 different types without duplicates, same for next 7, and next 7, and so on. Imagine every 7 pieces being a "bag" of the 7 types of pieces)
+> has HOLD, where you can hold onto one piece for later<br />
+> has soft drop (increase falling speed), hard drop (instantly drop and lock), ghost block (preview of landing position)<br />
+> has many NEXT previews, at least 3, usually 5-6<br />
+> has "3-corner" T-Spin detection (last movement is rotation, 3 of 4 corners of the T occupied by blocks or out-of-bound)<br />
+> has Super Rotation System, the thing that made the Spins possible<br />
+> has standard piece colors (cyan I, purple T, blue J, orange L, yellow O, green S, red Z)<br />
+> has "bag 7" randomizer (the first 7 pieces are the 7 different types without duplicates, same for next 7, and next 7, and so on. Imagine every 7 pieces being a "bag" of the 7 types of pieces)<br />
 > has Combo system (though it's absent from Tetris DS)
 
 ... and so on. It's quite a system. There are other stuff which you can look up online.
