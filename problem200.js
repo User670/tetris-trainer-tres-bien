@@ -242,7 +242,7 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [Z, S, T, L, J, I, O, Z, L, S, T];
     this.caption = 'C-Spin';
-    this.hint = 'A TST setup that can be followed up by either a TD or a TST.\nThis setup is known as C-spin. However, in Japan, this is called TKI stacking because this was invented by TKI (not to be confused with TKI, the opener made by TKI).\n';
+    this.hint = 'A TST setup that can be followed up by either a TSD or a TST.\nThis setup is known as C-spin. However, in Japan, this is called TKI stacking because this was invented by TKI (not to be confused with TKI, the opener made by TKI).\n';
     this.isStrictGuide = true;
     this.guides = [G(0, 2, 18), G(1, 3, 17), G(2, 2, 15),
                    G(1, -1, 17), G(1, -1, 14), G(0, 6, 18),

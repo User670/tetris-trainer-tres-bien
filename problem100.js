@@ -331,7 +331,7 @@ function Problem100(id){
                           [1,1,1,1,1,1,0,0,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [T, T, T];
-    this.caption = 'T-piece rotations, part 1';
+    this.caption = 'T piece rotations, part 1';
     this.hint = 'Rotate right and it fits right in.\nAlthough you can rotate left 3 times, you should go with the more efficient route.';
     this.isStrictGuide = false;
     this.guides =[];
@@ -360,7 +360,7 @@ function Problem100(id){
                           [1,0,0,1,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [T, T, T];
-    this.caption = 'T-piece rotations, part 2';
+    this.caption = 'T piece rotations, part 2';
     this.hint = 'On the other hand, this is when you should rotate left.';
     this.isStrictGuide = false;
     this.guides =[];
@@ -389,7 +389,7 @@ function Problem100(id){
                           [1,0,1,1,1,0,0,1,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [T, T, T, T];
-    this.caption = 'T-piece rotations, part 3';
+    this.caption = 'T piece rotations, part 3';
     this.hint = 'Try to clear this efficently with the two rotation buttons.';
     this.isStrictGuide = false;
     this.guides =[];
@@ -418,7 +418,7 @@ function Problem100(id){
                           [1,1,1,0,0,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [T];
-    this.caption = 'T-piece rotations, part 4';
+    this.caption = 'T piece rotations, part 4';
     this.hint = 'Rotate your way down this tunnel, and make a line clear at the bottom.\n(If things goes well, you might also get a T-Spin...?!)';
     this.isStrictGuide = false;
     this.guides =[];
@@ -447,7 +447,7 @@ function Problem100(id){
                           [1,1,1,0,0,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [T, I];
-    this.caption = 'T-piece 180 rotation';
+    this.caption = 'T piece 180 rotation';
     this.hint = 'Get the T piece to the indicated position, then rotate twice.\nDO NOT HARD DROP until you get the piece in the right place.';
     this.isStrictGuide = false;
     this.guides =[G(3, 3, 16)];
@@ -2458,7 +2458,7 @@ function Problem100(id){
                           [1,1,1,1,1,0,0,1,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [O, T];
-    this.caption = 'Sliding into a TST, part 1';
+    this.caption = 'Sliding into a TST, part 2';
     this.hint = 'However, this doesn\'t work with a 1-tall wall. Build the wall before you spin.';
     this.isStrictGuide = true;
     this.guides = [G(0, 1, 14), G(3, 5, 17)];
