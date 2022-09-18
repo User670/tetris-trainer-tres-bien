@@ -450,8 +450,8 @@ function SectionTitle(id){
   case  2: return '3. TSD on a T-shaped hole'; break;
   case  3: return '4. TSD on a straight well'; break;
   case  4: return '5. TSD on a straight well (no guides)'; break;
-  case  5: return '6. Balancing the terrain'; break;
-  case  6: return '7. Balancing the terrain (no guides)'; break;
+  case  5: return '6. Balancing the stack'; break;
+  case  6: return '7. Balancing the stack (no guides)'; break;
   case  7: return '8. Mini T-Spin: a little trick'; break;
   case  8: return '9. T-Spin Triple (T3 / TST): maxing out your attack power'; break;
   case  9: return '10. Constructing a TST'; break;

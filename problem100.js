@@ -331,8 +331,8 @@ function Problem100(id){
                           [1,1,1,1,1,1,0,0,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [T, T, T];
-    this.caption = 'Rotation of T pieces, part 1';
-    this.hint = 'Rotate right and it fits right in.\nThough you can rotate left 3 times, but better go with the more efficient route.';
+    this.caption = 'T-piece rotations, part 1';
+    this.hint = 'Rotate right and it fits right in.\nAlthough you can rotate left 3 times, you should go with the more efficient route.';
     this.isStrictGuide = false;
     this.guides =[];
     this.req = [0,3,0,0,0,0,0,0,0,0,0,0,0];
@@ -360,7 +360,7 @@ function Problem100(id){
                           [1,0,0,1,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [T, T, T];
-    this.caption = 'Rotation of T pieces, part 2';
+    this.caption = 'T-piece rotations, part 2';
     this.hint = 'On the other hand, this is when you should rotate left.';
     this.isStrictGuide = false;
     this.guides =[];
@@ -389,7 +389,7 @@ function Problem100(id){
                           [1,0,1,1,1,0,0,1,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [T, T, T, T];
-    this.caption = 'Rotation of T pieces, part 3';
+    this.caption = 'T-piece rotations, part 3';
     this.hint = 'Try to clear this efficently with the two rotation buttons.';
     this.isStrictGuide = false;
     this.guides =[];
@@ -418,7 +418,7 @@ function Problem100(id){
                           [1,1,1,0,0,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [T];
-    this.caption = 'Rotation of T pieces, part 4';
+    this.caption = 'T-piece rotations, part 4';
     this.hint = 'Rotate your way down this tunnel, and make a line clear at the bottom.\n(If things goes well, you might also get a T-Spin...?!)';
     this.isStrictGuide = false;
     this.guides =[];
@@ -447,7 +447,7 @@ function Problem100(id){
                           [1,1,1,0,0,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [T, I];
-    this.caption = '180 rotation of the T piece';
+    this.caption = 'T-piece 180 rotation';
     this.hint = 'Get the T piece to the indicated position, then rotate twice.\nDO NOT HARD DROP until you get the piece in the right place.';
     this.isStrictGuide = false;
     this.guides =[G(3, 3, 16)];
@@ -535,7 +535,7 @@ function Problem100(id){
                           [1,0,0,0,1,1,1,1,1,1]];
     this.ingredients = [T, T];
     this.caption = 'Sliding in the T piece, part 3';
-    this.hint = 'By the way, sliding in a T piece like this counts as a Mini T-Spin.';
+    this.hint = 'By the way, spinning in a T piece like this counts as a Mini T-Spin.';
     this.isStrictGuide = false;
     this.guides =[];
     this.req = [0,0,0,0,0,0,2,0,0,0,0,0,0];
@@ -593,7 +593,7 @@ function Problem100(id){
                           [1,1,1,1,1,1,0,0,0,1]];
     this.ingredients = [O, T];
     this.caption = 'Sliding in the T piece, part 5';
-    this.hint = 'You need a 2-tall wall for the T piece to slide in.';
+    this.hint = 'You need a wall that\'s at least 2 blocks tall for the T piece to spin in the slot.';
     this.isStrictGuide = false;
     this.guides =[];
     this.req = [0,0,0,0,0,0,1,0,0,0,0,0,0];
@@ -621,7 +621,7 @@ function Problem100(id){
                           [1,1,1,1,1,0,0,0,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [T];
-    this.caption = 'Getting started with T-Spin Double';
+    this.caption = 'Getting started with T-Spin Doubles';
     this.hint = 'Here\'s what a basic T-Spin setup looks like.\nMove the T piece to the indicated location and rotate right for a T-Spin Double (TSD).';
     this.isStrictGuide = false;
     this.guides = [G(1, 5, 17)];
@@ -650,7 +650,7 @@ function Problem100(id){
                           [1,1,1,1,0,1,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [O, T];
-    this.caption = 'Overhang for the T-Spin setup, part 1';
+    this.caption = 'T-Spin overhangs, part 1';
     this.hint = 'Cover the side of the T slot with this O piece.\nIf you don\'t make this overhang, it won\'t count it as a T-spin.';
     this.isStrictGuide = true;
     this.guides = [G(0, 4, 10), G(2, 3, 11)];
@@ -679,7 +679,7 @@ function Problem100(id){
                           [1,0,1,1,1,1,1,1,1,1],
                           [1,0,1,1,1,1,1,1,1,1]];
     this.ingredients = [O, T];
-    this.caption = 'Overhang for the T-Spin setup, part 2';
+    this.caption = 'T-Spin overhangs, part 2';
     this.hint = 'Try to clear a T-Spin Double without guides.';
     this.isStrictGuide = false;
     this.guides = [];
@@ -708,7 +708,7 @@ function Problem100(id){
                           [1,1,1,0,1,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [J, T];
-    this.caption = 'Overhang for the T-Spin setup, part 3';
+    this.caption = 'T-Spin overhangs, part 3';
     this.hint = 'It\'s J piece instead of O, but still the same idea.';
     this.isStrictGuide = false;
     this.guides = [];
@@ -737,7 +737,7 @@ function Problem100(id){
                           [1,1,1,1,0,1,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [L, T];
-    this.caption = 'Overhang for the T-Spin setup, part 4';
+    this.caption = 'T-Spin overhangs, part 4';
     this.hint = 'L piece this time.\nIt\'s a different-shaped field but we\'re essentially doing the same thing.';
     this.isStrictGuide = false;
     this.guides = [];
@@ -766,7 +766,7 @@ function Problem100(id){
                           [1,1,1,1,1,0,1,1,1,1],
                           [1,1,1,1,1,0,1,1,1,1]];
     this.ingredients = [S, T];
-    this.caption = 'Overhang for the T-Spin setup, part 5';
+    this.caption = 'T-Spin overhangs, part 5';
     this.hint = 'Here\'s an S piece.\nSlightly different situation, but a T-Spin Double is still doable.';
     this.isStrictGuide = false;
     this.guides = [];
@@ -795,7 +795,7 @@ function Problem100(id){
                           [1,1,1,1,1,0,1,1,1,1],
                           [1,1,1,1,1,0,1,1,1,1]];
     this.ingredients = [Z, T];
-    this.caption = 'Overhang for the T-Spin setup, part 6';
+    this.caption = 'T-Spin overhangs, part 6';
     this.hint = 'Z piece for this one.\nThere are two solutions for this question, try to find them both.';
     this.isStrictGuide = false;
     this.guides = [];
@@ -824,7 +824,7 @@ function Problem100(id){
                           [1,1,1,0,1,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [J, T];
-    this.caption = 'Overhang for the T-Spin setup, part 7';
+    this.caption = 'T-Spin overhangs, part 7';
     this.hint = 'It\'s a deeper hole, but still possible to make a TSD with this depth (3).';
     this.isStrictGuide = false;
     this.guides = [];
@@ -853,7 +853,7 @@ function Problem100(id){
                           [1,1,1,0,1,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [J, T];
-    this.caption = 'Overhang for the T-Spin setup, part 8';
+    this.caption = 'T-Spin overhangs, part 8';
     this.hint = 'Make an overhang with the same J piece, but the hole is not as deep...?';
     this.isStrictGuide = false;
     this.guides = [];
@@ -882,7 +882,7 @@ function Problem100(id){
                           [1,1,1,0,0,0,1,1,1,1],
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [T, T, T, T, T];
-    this.caption = 'T-Spin Double, the finale';
+    this.caption = 'T-Spin Double - the finale';
     this.hint = 'To finish off, go wild with the T-Spin Doubles.';
     this.isStrictGuide = false;
     this.guides = [];
@@ -911,7 +911,7 @@ function Problem100(id){
                           [1,1,1,0,1,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [S, T];
-    this.caption = 'TSD setup with S or Z, part 1';
+    this.caption = 'TSD setups with S/Z, part 1';
     this.hint = 'S and Z are rather effective for a wider hole.';
     this.isStrictGuide = true;
     this.guides = [G(1, 3, 11), G(2, 2, 12)];
@@ -940,7 +940,7 @@ function Problem100(id){
                           [1,1,1,0,1,1,1,1,1,1],
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [Z, T];
-    this.caption = 'TSD setup with S or Z, part 2';
+    this.caption = 'TSD setups with S/Z, part 2';
     this.hint = 'Also works when the hole is wider-er.';
     this.isStrictGuide = true;
     this.guides = [G(0, 4, 12), G(2, 2, 12)];
@@ -969,7 +969,7 @@ function Problem100(id){
                           [1,1,1,1,1,1,0,1,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [Z, T, S, T];
-    this.caption = 'TSD setup with S or Z, part 3';
+    this.caption = 'TSD setups with S/Z, part 3';
     this.hint = 'Clear two T-Spin Doubles.';
     this.isStrictGuide = true;
     this.guides = [G(1, 0, 9), G(2, 2, 10),
@@ -1000,7 +1000,7 @@ function Problem100(id){
                           [1,1,1,1,0,1,1,1,1,1]];
     this.ingredients = [T, T];
     this.caption = 'TSD overhang with a T';
-    this.hint = 'As an alternative to S or Z, T can also be used to make the overhang.\n(Teatube: considering there are only one T in a bag, probably better try to use your Ts in T-Spins.)';
+    this.hint = 'As an alternative to S or Z, T can also be used to make the overhang.\n(Teatube: considering there are only one T in a bag, it\'s better to try to use your Ts for T-Spins instead of making overhangs with them.)';
     this.isStrictGuide = true;
     this.guides = [G(2, 5, 13), G(2, 3, 14)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1615,7 +1615,7 @@ function Problem100(id){
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [J, O, S, T];
     this.caption = 'Balancing the stack, part 5';
-    this.hint = 'Also remember to build the T slot as you terraform the field.';
+    this.hint = 'Also remember to build the overhang as you balance the stack.';
     this.isStrictGuide = true;
     this.guides = [G(0, 7, 14), G(0, 7, 13),
                    G(0, 3, 12), G(2, 5, 12)];
@@ -1703,7 +1703,7 @@ function Problem100(id){
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [J, T];
     this.caption = 'J/L hook, part 1';
-    this.hint = 'Hook a J/L here for a TSD setup.';
+    this.hint = 'Hook a J here for a TSD setup.';
     this.isStrictGuide = true;
     this.guides = [G(1, -1, 9), G(2, 1, 9)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -1732,7 +1732,7 @@ function Problem100(id){
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [I, L, T];
     this.caption = 'J/L hook, part 2';
-    this.hint = 'Actually that\'s not "balancing", but still it\'s a valid strategy to keep in mind.';
+    this.hint = 'This actually isn\'t "balancing", but it\'s still a valid strategy to keep in mind.';
     this.isStrictGuide = true;
     this.guides = [G(3, 1, 10), G(3, 5, 11), G(2, 3, 11)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -2023,7 +2023,7 @@ function Problem100(id){
                           [1,1,1,1,1,0,1,1,1,1]];
     this.ingredients = [J, Z, O, T];
     this.caption = 'Balancing practice, part 9';
-    this.hint = 'Clear a T-Spin Double.';
+    this.hint = 'Clear a T-Spin Double. (Bonus: Try not to cover the garbage hole.)';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -2429,7 +2429,7 @@ function Problem100(id){
                           [1,1,0,0,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [T];
-    this.caption = 'Slide into a TST, part 1';
+    this.caption = 'Sliding into a TST, part 1';
     this.hint = 'If there is a wall, rotate right twice at the indicated location.\nRemember this, you\'ll see this often.';
     this.isStrictGuide = false;
     this.guides = [G(3, 3, 14)];
@@ -2458,7 +2458,7 @@ function Problem100(id){
                           [1,1,1,1,1,0,0,1,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [O, T];
-    this.caption = 'Slide into a TST, part 1';
+    this.caption = 'Sliding into a TST, part 1';
     this.hint = 'However, this doesn\'t work with a 1-tall wall. Build the wall before you spin.';
     this.isStrictGuide = true;
     this.guides = [G(0, 1, 14), G(3, 5, 17)];
@@ -2488,7 +2488,7 @@ function Problem100(id){
                           [1,1,1,1,1,1,1,0,1,1]];
     this.ingredients = [T, T, T, T];
     this.caption = 'T-Spin Triple review';
-    this.hint = 'Clear a TST 4 times.\nTry to feel the direction of the rotation, and remember that feeling.';
+    this.hint = 'Clear 4 TST\'s.\nTry to feel the direction of the rotation, and remember that feeling.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,0,4,0,0,0];
@@ -2516,7 +2516,7 @@ function Problem100(id){
                           [1,1,1,1,0,0,1,1,1,1],
                           [1,1,1,1,1,0,1,1,1,1]];
     this.ingredients = [Z, T];
-    this.caption = 'Overhang for TST, part 1';
+    this.caption = 'TST overhangs, part 1';
     this.hint = 'Clear a TST.\nPicture how the T should move, and build accordingly.';
     this.isStrictGuide = false;
     this.guides = [];
@@ -2545,7 +2545,7 @@ function Problem100(id){
                           [1,1,1,1,1,1,1,0,0,1],
                           [1,1,1,1,1,1,1,0,1,1]];
     this.ingredients = [Z, T];
-    this.caption = 'Overhang for TST, part 2';
+    this.caption = 'TST overhangs, part 2';
     this.hint = 'Clear a TST.\nIt\'s a pain to recover from a failed TST setup. Make sure to get it right.';
     this.isStrictGuide = false;
     this.guides = [];
@@ -2574,8 +2574,8 @@ function Problem100(id){
                           [1,1,0,0,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [S, T, S, T, S, T];
-    this.caption = 'Overhang for TST, part 3';
-    this.hint = 'Clear a TST 3 times.\nGet your overhang swiftly yet accurately.';
+    this.caption = 'TST overhangs, part 3';
+    this.hint = 'Clear 3 TST\'s.\nGet your overhang swiftly yet accurately.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,0,3,0,0,0];
@@ -2603,7 +2603,7 @@ function Problem100(id){
                           [1,1,1,1,1,1,1,0,0,1],
                           [1,1,1,1,1,1,1,0,1,1]];
     this.ingredients = [J, T];
-    this.caption = 'Overhang for TST, part 4';
+    this.caption = 'TST overhangs, part 4';
     this.hint = 'Often you\'ll use a J or L for something like this with one block lower on that side.';
     this.isStrictGuide = true;
     this.guides = [G(1, 5, 15), G(1, 6, 17)];

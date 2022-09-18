@@ -26,8 +26,8 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [I, S, Z, O, J, T];
-    this.caption = 'TSD opener, part 1';
-    this.hint = 'This TSD opener is a very important opener setup, and used by players of various skill levels.';
+    this.caption = 'TSD openers, part 1';
+    this.hint = 'This is TKI - a very important TSD opener setup. It is used by players of various skill levels.';
     this.isStrictGuide = true;
     this.guides = [G(0, 3, 18), G(0, 4, 17), G(3, 2, 17), 
                    G(0, -1, 18), G(3, 8, 17), G(2, 6, 17)];
@@ -56,7 +56,7 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [I, Z, S, O, L, T];
-    this.caption = 'TSD opener, part 2';
+    this.caption = 'TSD openers, part 2';
     this.hint = 'Try this opener mirrored.\nBy the way, the first 7 pieces of a game are one each of the 7 pieces without duplicates.';
     this.isStrictGuide = true;
     this.guides = [G(0, 3, 18), G(0, 3, 17), G(1, 5, 17), 
@@ -86,8 +86,8 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [I, S, J, O, Z, T, L, Z, S, L, O, I, T];
-    this.caption = 'TSD opener, part 3';
-    this.hint = '... Same goes with the 7 pieces after the first 7, and the 7 after that, and so on.';
+    this.caption = 'TSD openers, part 3';
+    this.hint = '... Same goes with the 7 pieces after the first 7, and the 7 after that, and so on. This is what we call the 7-bag randomizer.';
     this.isStrictGuide = true;
     this.guides = [G(0, 3, 18), G(0, 4, 17), G(3, 8, 17),
                    G(0, -1, 18), G(3, 2, 17), G(2, 6, 17),
@@ -119,7 +119,7 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [I, S, Z, O, J, T];
-    this.caption = 'TSD opener, part 4';
+    this.caption = 'TSD openers, part 4';
     this.hint = 'Time to launch the TSD opener yourself.\nThings should be more smooth if you practice enough...';
     this.isStrictGuide = false;
     this.guides = [];
@@ -209,7 +209,7 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [J, L, Z, S, I, O, T, L, J, I, O, S, T, T];
     this.caption = 'DT Cannon';
-    this.hint = 'As the name implies, it\'s a TSD -> TST cannon.\nIt\'s a bit complex, no need to memorize for now.';
+    this.hint = 'DT stands for Double Triple because it\'s a TSD -> TST cannon.\nIt\'s a bit complex, so you don\'t need to memorize it for now.';
     this.isStrictGuide = true;
     this.guides = [G(0, 7, 18), G(0, 3, 18), G(0, 7, 17),
                    G(0, 3, 17), G(1, 4, 16), G(0, -1, 18),
@@ -242,7 +242,7 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [Z, S, T, L, J, I, O, Z, L, S, T];
     this.caption = 'C-Spin';
-    this.hint = 'A TST setup that can be followed up by either a TSD or a TST.\nIn Japan this is called TKI stacking, where TKI is the name of the person that came up with this.';
+    this.hint = 'A TST setup that can be followed up by either a TD or a TST.\nThis setup is known as C-spin. However, in Japan, this is called TKI stacking because this was invented by TKI (not to be confused with TKI, the opener made by TKI).\n';
     this.isStrictGuide = true;
     this.guides = [G(0, 2, 18), G(1, 3, 17), G(2, 2, 15),
                    G(1, -1, 17), G(1, -1, 14), G(0, 6, 18),
@@ -274,7 +274,7 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [S, T, Z, I, L, J, O, T, I, O];
     this.caption = 'Perfect Clear opener';
-    this.hint = 'The first 7 pieces in this is a basic setup for a Perfect Clear opener.';
+    this.hint = 'With the first 7 pieces, you can also make a setup known as the Perfect Clear Opener (PCO).';
     this.isStrictGuide = true;
     this.guides = [G(0, 1, 18), G(1, -1, 17), G(0, 0, 16), G(0, 6, 18), G(1, 5, 16),
                    G(3, 8, 16), G(0, 6, 16), G(3, 4, 17), G(0, 2, 16), G(0, 2, 18)];
@@ -304,7 +304,7 @@ function Problem200(id){
                           [0,0,0,0,0,0,0,0,0,0]];
     this.ingredients = [J, L, O, S, Z, I, T, O, J, I, I, S, Z, O, L, J, T, I, J ,L];
     this.caption = 'Grace System';
-    this.hint = 'A different Perfect Clear opener that builds a 4x6 rectangle.\nIf you can get a T piece in hold, it would be more likely to get a Perfect Clear out of it.';
+    this.hint = 'A different Perfect Clear opener that builds a 4x6 rectangle, named Grace system.\nIf you can get a T piece in hold, you can get a higher Perfect Clear chance than PCO.';
     this.isStrictGuide = true;
     this.guides = [G(0, 0, 18), G(0, 3, 18), G(0, 1, 17), G(3, 0, 16), G(3, 4, 16),
                    G(0, 1, 15), G(3, 8, 17), G(0, 5, 18), G(2, 6, 17), G(0, 6, 18),
@@ -425,7 +425,7 @@ function Problem200(id){
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [T, I, J, I, L, I];
     this.caption = 'Terraforming the well, part 1';
-    this.hint = 'T, J and L can be used to adjust height of the floor of the 2-wide well. Here we do this to make it Tetris-ready.';
+    this.hint = 'T, J and L can be used to adjust the height of the floor of the 2-wide well. Here we do this to make it Tetris-ready.';
     this.isStrictGuide = true;
     this.guides = [G(3, 8, 5), G(1, 6, 6), G(3, 4, 10), 
                    G(3, 3, 11), G(3, 0, 15), G(3, -1, 16)];
@@ -721,7 +721,7 @@ function Problem200(id){
                           [1,1,1,1,1,0,1,1,1,1]];
     this.ingredients = [S, T, I];
     this.caption = 'Digging while not blocking, part 4';
-    this.hint = 'Dig and clear a Tetris.\nThink about how to not block the well as you dig.';
+    this.hint = 'Dig and clear a Tetris.\nThink about avoiding blocking the well as you dig.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -750,7 +750,7 @@ function Problem200(id){
                           [1,1,1,1,1,0,1,1,1,1]];
     this.ingredients = [O, T, Z, J, I];
     this.caption = 'Digging while not blocking, part 5';
-    this.hint = 'Did and clear a Tetris.\nThe O at the beginning is annoying, and it can be very painful later on if you just haphazardly place it somewhere random.';
+    this.hint = 'Dig and clear a Tetris.\nThe O at the beginning is annoying, and it can be very painful later on if you just haphazardly place it somewhere random.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -1361,7 +1361,7 @@ function Problem200(id){
                           [1,0,0,1,1,1,1,0,0,1]];
     this.ingredients = [S, Z, S, Z, S, Z, S, Z];
     this.caption = 'Practice: S/Z spin with walls';
-    this.hint = 'It\'s used quite often, so get it memorized well.\nPS. That last pair of pieces might or might not be different...';
+    this.hint = 'It\'s used quite often, so get it memorized well.\nPS. That last pair of pieces may or may not be different...';
     this.isStrictGuide = true;
     this.guides = [G(2, 1, 14), G(2, 6, 14), G(2, 1, 15), G(2, 6, 15),
                    G(2, 1, 16), G(2, 6, 16), G(2, 1, 17), G(2, 6, 17)];
@@ -1603,7 +1603,8 @@ function Problem200(id){
   case 154:
     this.initialBlocks = [[0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0],
-                          [0,0,0,0,0,0,0,0,0,0],
+
+			  [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0],
                           [0,0,0,0,0,0,0,0,0,0],
@@ -1739,7 +1740,7 @@ function Problem200(id){
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [L, J, T];
     this.caption = 'Building the Fin, part 1';
-    this.hint = 'Here let\'s try building a setup for a Fin.\nIt\'s somewhat useful in combat.';
+    this.hint = 'Here let\'s try building a setup for a Fin.\nSadly, it\'s not very useful for combat.';
     this.isStrictGuide = true;
     this.guides = [G(0, 7, 16), G(2, 5, 14), G(3, 5, 17)];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
@@ -2755,7 +2756,7 @@ function Problem200(id){
                           [1,1,1,0,1,1,1,1,1,1]];
     this.ingredients = [I, I, I, I];
     this.caption = 'Finesse with the I, part 2';
-    this.hint = 'For these placements, "rotate right/left + tap right left once" is the optimal way to move.\nKeep button presses at a minimum helps reduce mistakes.';
+    this.hint = 'For these placements, "rotate right/left + tap right left once" is the optimal way to move.\nKeeping button presses at a minimum helps reduce misdrops.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,4,0,0,0,0,0,0,0,0,0];
@@ -2842,7 +2843,7 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,0,0,1]];
     this.ingredients = [T, T, I, T, T, I];
     this.caption = 'Finesse with the T, part 1';
-    this.hint = 'For T, DAS to the left, rotate right, and it\'s perfectly one block from the wall.\nOn the right wall, rotate left instead.';
+    this.hint = 'For T, DAS to the left, release left, rotate right, and it\'s perfectly one block from the wall; vice versa on the other side.';
     this.isStrictGuide = true;
     this.guides = [G(1, 0, 11), G(1, 0, 9), G(1, 0, 10),
                    G(3, 7, 17), G(3, 7, 15), G(3, 6, 16)];
