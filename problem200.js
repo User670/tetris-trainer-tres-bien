@@ -545,7 +545,7 @@ function Problem200(id){
                           [1,1,1,1,1,1,1,1,1,0],
                           [1,1,1,1,1,1,1,1,1,0]];
     this.ingredients = [L, S, S, L, Z, J];
-    this.caption = 'Blocking the well, part ';
+    this.caption = 'Blocking the well, part 2';
     this.hint = 'If you can clean it up right away, you might as well block it for a bit.';
     this.isStrictGuide = true;
     this.guides = [G(1, 6, 10), G(1, 7, 10), G(0, 7, 10),
