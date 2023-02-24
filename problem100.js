@@ -1439,7 +1439,7 @@ function Problem100(id){
                           [1,1,1,1,1,1,1,1,0,1]];
     this.ingredients = [L, O, I, T];
     this.caption = 'T-Spin Double practice, part 9';
-    this.hint = 'Clear a T-Spin Double.\nFeel free to ignore the gaps on the left and botton right.';
+    this.hint = 'Clear a T-Spin Double.\nFeel free to ignore the gaps on the left and bottom right.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,0,0,0,0,0,1,0,0,0,0];
